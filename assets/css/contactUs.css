@@ -1,0 +1,432 @@
+body{
+    background-image: url('../images/Contact\ us.png');
+    background-size: contain;
+}
+.main-contact{
+    margin-left: -4%;
+    color: #ffffff;
+}
+.main-ch{
+    text-align: center;
+}
+
+.location-divider{
+    display: flex;
+    align-items: center;
+    margin-left: -12%;
+    margin-top: 7%;
+}
+
+.location-divider img{
+    width: 40%;
+}
+
+
+.images-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.66rem;
+}
+.all-r{
+    color: #ffffff;
+        width: 20%;
+        margin: 0 40%;
+        font-size: 0.9rem;
+}
+
+.all-r div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-r p{
+    margin-left: 4%;
+}
+
+.images-wrapper span img {
+    width: 50%;
+}
+.form-contact form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.all-r div{
+    width: 76%;
+}
+
+/*
+    For Firefox
+*/
+
+
+@-moz-document url-prefix() {
+ 
+    .location-divider{       
+        display: flex;
+        align-items: center;
+        margin-left: 2.5% !important;
+        margin-top: 7%;
+    }
+
+    .form-contact form {
+    width: 50%;
+    margin: 0 26%;
+}
+    .form-contact{
+        margin-left: 2.2%;
+    }
+    .all-r{
+        color: #ffffff;
+            width: 15%;
+            margin: 0 41.5%;
+            font-size: 0.9rem;
+    }
+    .all-r div{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/*Media Queries*/
+
+/*For Chrome*/ 
+    @media(min-width:300px) and (max-width:359px){
+        .images-wrapper span{
+            height: 103px;
+        }
+        .location-divider{
+            margin-left: -21%;
+        }
+        .form-contact form{
+            margin: 0 7%;
+            width: 90%;
+        }
+        .all-r{
+            width: 85%;
+            margin:0 17%;
+        }
+        .all-r p{
+            margin: 0;
+        }
+    }
+
+    @media(min-width:320px) and (max-width:359px){
+        .all-r p{
+            margin-left: 5%;
+        }
+
+    }
+
+    @media(min-width:360px) and (max-width:400px){
+        .location-divider{       
+            margin-left: -18% !important;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r{
+            width: 65%;
+            margin: 0 26%;
+        }         
+        .all-r p{
+            margin-left: 0;
+        }
+    }
+
+    @media(min-width:400px) and (max-width:460px){
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r{
+            width: 70%;
+            margin:0 25%;
+        }
+    }
+
+    @media(min-width:460px) and (max-width:520px){
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r{
+            width: 70%;
+            margin:0 25%;
+        }
+        .all-r p{
+            margin-left: 8%;
+        }
+    }
+
+    @media(min-width:520px) and (max-width:580px){
+        .main-ch p{
+            padding-left: 4%;
+        }
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r{
+            width: 57%;
+            margin:0 29%;
+        }
+        .all-r p{
+            margin-left: 8%;
+        }
+    }
+
+    @media(min-width:580px) and (max-width:640px){
+        .main-ch p{
+            padding-left: 4%;
+        }
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r{
+            width: 57%;
+            margin:0 29%;
+        }
+        .all-r p{
+            margin-left: 8%;
+            letter-spacing: .4px;
+        }
+    }
+
+    @media(min-width:640px) and (max-width:700px){
+        .main-ch p{
+            padding-left: 4%;
+        }
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r {
+            width: 50%;
+            margin: 0px 31%;
+        }
+        .all-r p{
+            margin-left: 8%;
+            letter-spacing: .1px;
+        }
+    }
+
+    @media(min-width:700px) and (max-width:760px){
+        .main-ch p{
+            padding-left: 4%;
+        }
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r {
+            width: 50%;
+            margin: 0px 31%;
+        }
+        .all-r p{
+            margin-left: 8%;
+            letter-spacing: .4px;
+        }
+    }
+
+    @media(min-width:760px) and (max-width:820px){
+        .main-ch p{
+            padding-left: 4%;
+        }
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r {
+            width: 41.5%;
+            margin: 0px 34.5%;
+        }
+        .all-r p{
+            margin-left: 8%;
+            letter-spacing: .3px;
+        }
+    }
+
+    @media(min-width:820px) and (max-width:880px){
+        .main-ch p{
+            padding-left: 4%;
+        }
+        .location-divider{       
+            margin-left: 0 !important;
+        }
+        .location-divider img{
+            width: 35%;
+        }
+        .form-contact form {
+            width: 90%;
+            margin: 0 6.8%;
+        }
+        .all-r {
+            width: 41.5%;
+            margin: 0px 34.5%;
+        }
+        .all-r p{
+            margin-left: 8%;
+            letter-spacing: .3px;
+        }
+    }
+
+
+
+
+
+/*For FireFox*/
+    @-moz-document url-prefix() {
+        @media(min-width:300px) and (max-width:359px){
+            .location-divider{       
+                margin-left: 2% !important;
+            }
+            .all-r{
+                width: 65%;
+                margin:0 15%;
+            }
+            .form-contact form{
+                margin: 0 7%;
+            }
+        }
+
+        @media(min-width:320px) and (max-width:359px){
+            .all-r p{
+                margin-left: 8%;
+            }
+        }
+
+        @media(min-width:360px) and (max-width:400px){
+            .location-divider{       
+                margin-left: 3% !important;
+            }
+            .form-contact form {
+                width: 90%;
+                margin: 0 6.8%;
+            }
+            .all-r{
+                width: 65%;
+                margin: 0 16%;
+            }         
+            .all-r p{
+                margin-left: 13%;
+            }
+
+        }
+
+        @media(min-width:400px) and (max-width:460px){
+            .all-r{
+                width: 60%;
+                margin:0 20%;
+            }
+            .all-r p{
+                margin-left: 13%;
+            }
+        }
+
+        @media(min-width:460px) and (max-width:520px){
+            .all-r{
+                width:45%;
+                margin:0 28%;
+            }
+        }
+
+        @media(min-width:520px) and (max-width:580px){
+            .all-r {
+                width: 41%;
+                margin: 0 30%;
+            }
+        }
+
+        @media(min-width:580px) and (max-width:640px){
+            .all-r {
+                width: 41%;
+                margin: 0 30%;
+            }
+            .all-r p{
+                margin-left: 10%;
+            }
+        }
+
+        @media(min-width:640px) and (max-width:700px){
+            .all-r {
+                width: 35%;
+                margin: 0px 33%;
+            }
+        }
+
+        @media(min-width:700px) and (max-width:760px){
+            .all-r {
+                width: 37%;
+            }
+            .all-r p{
+                letter-spacing: 1.4px;
+            }
+        }
+        
+        @media(min-width:760px) and (max-width:820px){
+            .all-r {
+                width: 29.5%;
+                margin: 0px 35.5%;
+            }
+        }
+        
+        @media(min-width:820px) and (max-width:880px){
+            .all-r {
+                width: 29.5%;
+                margin: 0px 35.5%;
+            }
+        }
+  
+}
