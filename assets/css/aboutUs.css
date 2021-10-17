@@ -1,5 +1,5 @@
 body{
-    background-image: url('../images/BACKGROUND@2X.png');
+    background-image: linear-gradient(to right, #3093ce, #035c92);
 }
 
 main{
@@ -87,7 +87,7 @@ main{
 
 
 .who-sec{
-    margin-top: 6%;
+    margin-top: 10%;
     color: #ffffff;
 }
 

@@ -8,4 +8,17 @@ $(document).ready(function () {
         let id = localStorage.getItem('currentId')
         $(`.svg-p${id}`).css('color', 'transparent')
     })
-})
+
+    $('.nav-link-a').on('click', () =>{
+        let link = `${window.location}`
+        let path = `${window.location.pathname}`
+        if (link.includes('ar')) {
+            let new_path = path.slice(3)
+            location.href = `${new_path}`
+        } 
+        else{
+           location.href = `/ar${path}`
+        }
+    })
+
+}) 

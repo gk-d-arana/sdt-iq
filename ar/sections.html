@@ -3,11 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/util.css" >
-    <link rel="stylesheet" href="./assets/css/products.css" >
+    <link rel="stylesheet" href="../assets/css/util.css" >
+    <link rel="stylesheet" href="../assets/css/products.css" >
+    <link rel="stylesheet" href="../assets/css/sections.css" >
 
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <title>SDT</title>
+    <style>
+      .nav-bar-ul{
+        direction: rtl;;
+      }
+      .main-h {
+        left: 38%;
+      }
+      .footer p {
+        margin-left: 25%;
+        margin-top: 4%;
+      }
+    </style>
 </head>
 
 <body class="index-body">
@@ -19,27 +32,26 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <img src="./assets/images/sdt-logo.png" class="nav-img">
+              <img src="../assets/images/sdt-logo.png" class="nav-img">
 
               <div class="collapse navbar-collapse " id="navbarNav">
 
                 <ul class="nav-bar-ul">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./index.html" style="color: #f8af02;">Home</a>
-                    
+                    <a class="nav-link" aria-current="page" href="./index.html" style="color: #f8af02;">الصفحة الرئيسية</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./sections.html" style="color: #399cd7;">Products</a>
+                    <a class="nav-link" href="./sections.html" style="color: #399cd7;">المنتجات</a>
                     <hr size="4px">
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./aboutUs.html" style="color: #f8af02;">About Us</a>
+                    <a class="nav-link" href="./aboutUs.html" style="color: #f8af02;">معلومات عنا</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./contactUs.html" style="color: #f8af02;">Contact Us</a>
+                    <a class="nav-link" href="./contactUs.html" style="color: #f8af02;">تواصل معنا</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-link-a" href="#">Switch To Arabic</a>
+                    <a class="nav-link nav-link-a" href="#">التبديل الى الانكليزية</a>
                   </li>
                 </ul>
               </div>
@@ -49,7 +61,7 @@
 
     <div class="main-content-wrapper">
       <div class="laptop-view-back">     
-        <img src="./assets/images/Path 2064@2X.png" class="navbar-back">
+        <img src="../assets/images/Path 2064@2X.png" class="navbar-back">
      </div>
      <div class="mobile-view-back">     
     </div>
@@ -61,104 +73,33 @@
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate eius cum laborum, consequatur debitis alias rerum minima dolorem, provident facilis saepe in modi eveniet repudiandae labore, suscipit obcaecati error sit.
         </p>
       </p>
-        <img class="main-p-arrow" src="./assets/images//Icon material-keyboard-arrow-down@2X.png">
+        <img class="main-p-arrow" src="../assets/images//Icon material-keyboard-arrow-down@2X.png">
       </section>
 
-
-
-
-
-
       <section class="products-sec laptop-size">
-       
-       
-       
-       
-       
-       
         <div class="container con-1" id="1">
-        
-        
-        
           <div class="row mb-3">
-           
-           
             <div class="col-xl-3 col-lg-5 img-div-1">
-
-              <svg  viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)"/>
               </svg>
-           
             </div>
-          
-          
             <div class="col-xl-9 col-lg-7 text-div-1">
               <h2 style="color:#f8af02;">Lorem Ipsum</h2>
               <p class="p-of-product">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr show-info-pr" id="1">Show Info</button>
+              <a class="btn show-more-pr show-products" href="./products.html">المزيد</a>
             </div>
-           
-           
-            <div class="product-details hidden product-details-1 mb-5" id="1">
-              <div class="container imgs-col">
-          
-          
-                <div class="col-4 ">
-                <h2>Product Name</h2>
-                <svg class="svg-ipad w-100 inner-svg" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <pattern id="img1-details" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
-                    </pattern>
-                  </defs>
-                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1-details)"/>
-                </svg>
-              </div>
-         
-         
-         
-              <div class="col-8 ">
-                <img src="./assets/images/Path 2068.png" class="_1st-angle">
-<!--                 <img src="./assets/images/Path 2069.png" class="_2nd-angle">
-                <img src="./assets/images/Path 2070.png" class="_3rd-angle">
-                <img src="./assets/images/Path 2071.png" class="_4th-angle"> -->
-                <div class="p-details-1">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-<!--                 <div class="p-details-2">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-3">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-4">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-        -->
-        
-              </div>
-       
-              <button class="btn show-more-pr show-less-p-details" id="1">Show Less</button>
 
-            </div>
-          </div>
 
           </div>
-          
-          
-          
           <div class="row mb-3">
            
             <div class="col-xl-9 col-lg-7">
@@ -167,28 +108,25 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
             <div class="col-xl-3 col-lg-5">
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
               </svg>
             </div>
           </div>
-         
-         
-         
           <div class="row mb-3">
             <div class="col-xl-3 col-lg-5">
               <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img3" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img3)"/>
@@ -200,25 +138,11 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
           </div>
-         
-         
-         
-          <button class="btn show-pr mt-5 mb-3">Show More Products</button>
+          <button class="btn show-pr mt-5">المزيد من الأقسام</button>
         </div>
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
         <div class="container con-2 hidden" id="2">
           <div class="row mb-3">
            
@@ -228,13 +152,13 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
             <div class="col-xl-3 col-lg-5">
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
@@ -246,7 +170,7 @@
               <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)"/>
@@ -258,46 +182,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr show-info-pr" id="2">Show Info</button>
+              <button class="btn show-more-pr show-info-pr" id="1">المزيد </button>
             </div>
-            <div class="product-details hidden product-details-2 mt-4 mb-5" id="1">
-              <div class="container imgs-col">
-              <div class="col-4 ">
-                <h2>Product Name</h2>
-                <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
-                    </pattern>
-                  </defs>
-                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
-                </svg>
-              </div>
-              <div class="col-8 ">
-                <img src="./assets/images/Path 2068.png" class="_1st-angle">
-                <img src="./assets/images/Path 2069.png" class="_2nd-angle">
-                <img src="./assets/images/Path 2070.png" class="_3rd-angle">
-                <img src="./assets/images/Path 2071.png" class="_4th-angle">
-                <div class="p-details-1">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-2">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-3">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-4">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <button class="btn show-more-pr show-less-p-details" id="2">Show Less</button>
-              </div>
-            </div>
-          </div>
+
           </div>
           <div class="row mb-3">
            
@@ -307,13 +194,13 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
             <div class="col-xl-3 col-lg-5">
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
@@ -321,7 +208,7 @@
             </div>
           </div>
 
-          <button class="btn show-pr mt-5 mb-3">Show More Products</button>
+          <button class="btn show-pr mt-5">المزيد من الأقسام</button>
         </div>
         <div class="container con-3 hidden" id="3">
           <div class="row mb-3">
@@ -329,7 +216,7 @@
               <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)"/>
@@ -341,46 +228,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr show-info-pr" id="3">Show Info</button>
+              <button class="btn show-more-pr show-info-pr" id="1">المزيد </button>
             </div>
-            <div class="product-details hidden product-details-3 mt-4 mb-5" id="1">
-              <div class="container imgs-col">
-              <div class="col-4 ">
-                <h2>Product Name</h2>
-                <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
-                    </pattern>
-                  </defs>
-                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
-                </svg>
-              </div>
-              <div class="col-8 ">
-                <img src="./assets/images/Path 2068.png" class="_1st-angle">
-                <img src="./assets/images/Path 2069.png" class="_2nd-angle">
-                <img src="./assets/images/Path 2070.png" class="_3rd-angle">
-                <img src="./assets/images/Path 2071.png" class="_4th-angle">
-                <div class="p-details-1">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-2">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-3">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-4">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <button class="btn show-more-pr show-less-p-details" id="3">Show Less</button>
-              </div>
-            </div>
-          </div>
+
           </div>
           <div class="row mb-3">
            
@@ -390,13 +240,13 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
             <div class="col-xl-3 col-lg-5">
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
@@ -408,7 +258,7 @@
               <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img3" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img3)"/>
@@ -420,10 +270,10 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
           </div>
-          <button class="btn show-pr mt-5 mb-3">Show More Products</button>
+          <button class="btn show-pr mt-5">المزيد من الأقسام</button>
 
         </div>
         <div class="container con-4 hidden" id="4">
@@ -435,13 +285,13 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
             <div class="col-xl-3 col-lg-5">
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
@@ -453,7 +303,7 @@
               <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)"/>
@@ -465,46 +315,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr show-info-pr" id="4">Show Info</button>
+              <button class="btn show-more-pr show-info-pr" id="1">المزيد </button>
             </div>
-            <div class="product-details hidden product-details-4 mt-4 mb-5" id="1">
-              <div class="container imgs-col">
-              <div class="col-4 ">
-                <h2>Product Name</h2>
-                <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
-                    </pattern>
-                  </defs>
-                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
-                </svg>
-              </div>
-              <div class="col-8 ">
-                <img src="./assets/images/Path 2068.png" class="_1st-angle">
-                <img src="./assets/images/Path 2069.png" class="_2nd-angle">
-                <img src="./assets/images/Path 2070.png" class="_3rd-angle">
-                <img src="./assets/images/Path 2071.png" class="_4th-angle">
-                <div class="p-details-1">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-2">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-3">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <div class="p-details-4">
-                  <h1 style="color: #f8af02;">lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
-                </div>
-                <button class="btn show-more-pr show-less-p-details" id="4">Show Less</button>
-              </div>
-            </div>
-          </div>
+
           </div>
           <div class="row mb-3">
            
@@ -514,13 +327,13 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
             <div class="col-xl-3 col-lg-5">
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
@@ -528,7 +341,7 @@
             </div>
           </div>
 
-          <button class="btn show-pr mt-5 mb-3">Show More Products</button>
+          <button class="btn show-pr mt-5">المزيد من الأقسام</button>
         </div>
       </section>
 
@@ -557,7 +370,7 @@
                 <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <pattern id="mobile-img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                      <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                     </pattern>
                   </defs>
                   <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img1)"/>
@@ -569,7 +382,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
                 </p>
-                <button class="btn show-more-pr show-info-pr" id="1">Show Info</button>
+                <button class="btn show-more-pr show-info-pr" id="1">المزيد </button>
               </div>
               <div class="product-details hidden product-details-1 mt-4 mb-5" id="1">
                 <div class="container imgs-col">
@@ -578,17 +391,17 @@
                   <svg class="svg-details" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <pattern id="img1-mob-details" patternUnits="userSpaceOnUse" width="100" height="100">
-                        <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                        <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                       </pattern>
                     </defs>
                     <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1-mob-details")"/>
                   </svg>
                 </div>
                 <div class="col-8 ">
-                  <img src="./assets/images/Path 2070.png" class="_3rd-angle-1">
-                  <img src="./assets/images/Path 2070.png" class="_3rd-angle-2">
-                  <img src="./assets/images/Path 2070.png" class="_3rd-angle-3">
-                  <img src="./assets/images/Path 2070.png" class="_3rd-angle-4">
+                  <img src="../assets/images/Path 2070.png" class="_3rd-angle-1">
+                  <img src="../assets/images/Path 2070.png" class="_3rd-angle-2">
+                  <img src="../assets/images/Path 2070.png" class="_3rd-angle-3">
+                  <img src="../assets/images/Path 2070.png" class="_3rd-angle-4">
 
                   <div class="p-details-1">
                     <h1 style="color: #f8af02;">lorem Ipsum</h1>
@@ -606,7 +419,7 @@
                     <h1 style="color: #f8af02;">lorem Ipsum</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem ex, iusto perspiciatis Lorem ipsum dolor sit, amet consectetu quidem repellendus esse dolorum aperiam cupiditate magnam ad um neque asperiores minus iste mollitia, quam modi quaerat!</p>
                   </div>
-<!--                   <button class="btn show-more-pr show-less-p-details" id="1">Show Less</button>
+<!--                   <button class="btn show-more-pr show-less-p-details" id="1">إغلاق</button>
  -->                </div>
               </div>
             </div>
@@ -618,7 +431,7 @@
                 <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <pattern id="mobile-img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                      <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                     </pattern>
                   </defs>
                   <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img2)"/>
@@ -630,7 +443,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
                 </p>
-                <button class="btn show-more-pr">Show More</button>
+                <button class="btn show-more-pr">المزيد</button>
               </div>
 
             </div>
@@ -639,7 +452,7 @@
                 <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <pattern id="mobile-img3" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                      <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                     </pattern>
                   </defs>
                   <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img3)"/>
@@ -651,10 +464,10 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
                 </p>
-                <button class="btn show-more-pr">Show More</button>
+                <button class="btn show-more-pr">المزيد</button>
               </div>
             </div>
-            <button class="btn show-pr mt-5 mb-3">Show More Products</button>
+            <button class="btn show-pr mt-5">المزيد من الأقسام</button>
           </div>
 
         <div class="container con-2 hidden" id="2">
@@ -663,7 +476,7 @@
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="mobile2-img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile2-img1)"/>
@@ -675,7 +488,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
 
 
@@ -685,7 +498,7 @@
               <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="mobile2-img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile2-img2)"/>
@@ -697,7 +510,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
           </div>
           <div class="row mb-3">
@@ -705,7 +518,7 @@
               <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="mobile2-img3" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
+                    <image xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
                 <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile2-img3)"/>
@@ -717,7 +530,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Iusto libero nemo consequatur unde quia, ex explicabo tempora ullam natus fuga sed commodi? Temporibus aliquid nisi officia rerum voluptate.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores dolore officia molestias minima numquam praesentium dolorum nihil, sint vero aliquam sit? Tempora exercitationem impedit temporibus excepturi voluptatum, beatae eaque.
               </p>
-              <button class="btn show-more-pr">Show More</button>
+              <button class="btn show-more-pr">المزيد</button>
             </div>
 
           </div>
@@ -730,30 +543,29 @@
 
     <div class="footer">
       <div class="container">
-        <img src="./assets/images/sdt-logo.png" class="footer-img mt-xl-5 mt-lg-4">
-        <p>Sdt is a leading consultancy and service provider in the IT and telecom sector. </p>
-        <div class="links my-3">
-          <a><img src="./assets//images/email@2X.png"></a>
-          <a><img src="./assets/images/Location@2X.png"></a>
-          <a><img src="./assets/images/Phone@2X.png"></a>
+        <img src="../assets/images/sdt-logo.png" class="footer-img mt-xl-4 mt-lg-3">
+            <p>شركتنا هي شركة رائدة في المجال الاستشاري وتع أكبر مزود خدمات في المجال التقني في الشرق الأوسط </p>
+      <div class="links my-3">
+          <a><img src="../assets//images/email@2X.png"></a>
+          <a><img src="../assets/images/Location@2X.png"></a>
+          <a><img src="../assets/images/Phone@2X.png"></a>
         </div>
         <div class="links2">
-          <a><img src="./assets/images/Icon awesome-facebook-f@2X.png"></a>
-          <a><img src="./assets/images/Icon awesome-instagram@2X.png"></a>
-          <a><img src="./assets/images/Icon awesome-linkedin@2X.png"></a>
+          <a><img src="../assets/images/Icon awesome-facebook-f@2X.png"></a>
+          <a><img src="../assets/images/Icon awesome-instagram@2X.png"></a>
+          <a><img src="../assets/images/Icon awesome-linkedin@2X.png"></a>
         </div>
         <div class="cpr mt-4">
-            Sdt &copy; 2021, All Rights Reserved.
+          Sdt &copy; 2021, كل الحقوق محفوظة
         </div>
       </div>
     </div>
 
 
 
-    <script src="./assets/js/bootstrap.bundle.min.js" ></script>
-    <script src="./assets/js/jquery-3.6.0.min.js" ></script>
-    <script src="./assets/js/homeJs.js"></script>
-    
-    <script src="./assets/js/products.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>    
+    <script src="../assets/js/homeJs.js"></script>
+    <script src="../assets/js/products.js"></script>
   </body>
 </html>

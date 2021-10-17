@@ -13,6 +13,17 @@
     opacity: .76;
 }
 
+
+.nav-item .nav-link-a {
+	color: #fff;
+	border: 1px solid;
+}
+.nav-item .nav-link-a:hover {
+	color: #000;
+    background-color: #fff;
+	border: 1px solid;
+}
+
 body{
     overflow-x: hidden;
    /*  font-family: FreeScpt !important; */
