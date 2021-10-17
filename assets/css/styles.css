@@ -2,8 +2,32 @@
 
 .heading-of-website{
     background-image: url('../images/josh-rose-trYl7JYATH0-unsplash.png');
-    height: 770px;
-    background-size: contain;
+    height: 670px;
+    background-size: cover;
+}
+
+.nav-item hr{
+  background-color: #399cd7;
+  opacity: .7;
+}
+
+.carousel {
+  margin: 40px 0;
+}
+
+.carousel-image{
+  width: 700px;
+  margin: 0 auto;
+  
+}
+
+.carousel-indicators{
+  margin-bottom: -3rem !important;
+}
+
+.carousel-item{
+  display: block;
+  margin: 0 auto;
 }
 
 .main-h{
@@ -19,12 +43,13 @@
     transform: translate(-5%);
     font-weight: 500;
     letter-spacing: 3px;
+    color: #6c4996 !important;
 }
 
 .ai {
 	width: 468px;
 	padding: 31px;
-	border: 1px solid #E5CA70;
+	border: 1px solid #f59e05;
 }
 
 .number, .number2{
@@ -36,7 +61,7 @@
     height: 35px;
 	font-size: 4rem;
 	position: relative;
-	color: #E5CA70;
+	color: #f59e05;
 	top: 0;
 	left: 1rem;
 }
@@ -44,7 +69,7 @@
     height: 35px;
 	font-size: 4rem;
 	position: relative;
-	color: #E5CA70;
+	color: #f59e05;
 	top: 0;
 	left: 36rem;
 }
@@ -55,17 +80,23 @@
 
 
 ._2nd-p{
-
-    margin: 10% 0;
+    margin: 5% 0;
     min-height: 1000px;
-    background-image: url('../images/BACKGROUND@1X.png');
+    background-image: linear-gradient(to right, #3093ce, #035c92);
     object-fit: contain;
+    
 }
 
-.show-more-home{
+a .show-more-home{
     position: relative;
     left: 34%;
     margin-top: 5%;
+    background-color: #f59e05;
+    color: #fff ;
+}
+
+a .show-more-home:hover{
+  color: #fff;
 }
 
   .ai h4{
@@ -97,7 +128,7 @@ main{
     border-left: 100px solid transparent;
     /* -------- */
     opacity: 0;
-    transition: 1.2s;
+    transition: 1s;
     /* --------- */
   }
   #triangle-bottomright {
@@ -113,7 +144,7 @@ main{
     top: -82%;
 left: 85%;
 transform: rotate(-57deg);
-transition: 1.2s;
+transition: 1s;
 opacity: 0;
   }
 
@@ -131,7 +162,7 @@ opacity: 0;
     opacity: 0;
 left: 107%;
 transform: rotate(225deg);
-transition: 1.2s;
+transition: 1s;
   }
   /* ------------------------------------------ */
   .ai:hover #triangle-bottommiddle{
@@ -159,7 +190,10 @@ opacity: 1;
     z-index: 0;
   }
   .ai:hover{
-    background-color: #444;
+    /* background-color: #6c4996; */
+    /* background-color: #0f6ba3; */
+    background-image: linear-gradient(to right, #3093ce, #035c92);
+
     color: #fff;
   }
 
@@ -172,7 +206,7 @@ opacity: 1;
   color: #fff;
 }
 .ai:hover h4{
-  color: #E5CA70;
+  color: #f59e05;
 }
 
 

@@ -10,7 +10,7 @@
 
 body{
     overflow-x: hidden;
-    font-family: FreeScpt !important;
+   /*  font-family: FreeScpt !important; */
 }
 
 
@@ -68,7 +68,7 @@ z-index:10000; /* must be the highest number of all others to cover them all */
 }
 
 .yellow-c{
-    color: #E5CA70;
+    color: #6c4996;
 }
 .nav-img{
         position: absolute;
@@ -118,7 +118,7 @@ hr{
 .footer-img{
         width: 30%;
         position: relative;
-        left: 36%;
+        left: 34%;
 }
 
 
