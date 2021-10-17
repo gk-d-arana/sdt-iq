@@ -43,8 +43,23 @@ main{
         display: block;
     }
 }
-    
 
+@media(min-width:800px) and (max-width:1200px){
+    .user-img-wrapper-main, .user-img-wrapper-main + .m-details{
+        top: 0 !important;
+    }
+    .footer p {
+        margin-left: 23%;
+        margin-top: 4%;
+    }
+
+}
+
+@media(max-width:850px){
+    .links2{
+        top:100% !important;
+    }
+}
 
 .navbar-back  {
     position: absolute;

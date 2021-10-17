@@ -18,7 +18,6 @@
 .carousel-image{
   width: 700px;
   margin: 0 auto;
-  
 }
 
 .carousel-indicators{
@@ -32,15 +31,17 @@
 
 .main-h{
     position: relative;
-    left: 50%;
-    transform: translate(-5%);
+    text-align: center;
+    left: 0%;
+    transform: translate(0%);
     font-weight: 500;
 }
 
 .main-h2{
     position: relative;
-    left: 45%;
-    transform: translate(-5%);
+    left: 0;
+    text-align:center;
+    transform: translate(0);
     font-weight: 500;
     letter-spacing: 3px;
     color: #6c4996 !important;
@@ -311,9 +312,14 @@ opacity: 1;
   margin-left: 5% !important;
   text-align: center !important;
 }
-.main-h2 {
-    left: 23%;
+
+.heading-of-website {
+  height: 368px;
 }
+.carousel-image{
+  width: 300px;
+} 
+
 footer{
   height: 300px;
 }
@@ -321,19 +327,21 @@ footer{
   left: 28% !important;
   top: 109% !important;
 }
-.main-h {
-  position: relative;
-  left: 43%;
-  transform: translate(-5%);
-  font-weight: 500;
-}
+
 .heading-of-website{
   background-position: -77.5%;
 }
 }
 
 @media(min-width:300px) and (max-width:359px){
-  .nav-img {
+
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 300px;
+  } 
+   .nav-img {
     width: 33% !important;
   }
   .number2 p{
@@ -354,9 +362,7 @@ footer{
   margin-left: 5% !important;
   text-align: center !important;
 }
-.main-h2 {
-    left: 23%;
-}
+
 footer{
   height: 300px;
 }
@@ -364,19 +370,20 @@ footer{
   left: 28% !important;
   top: 109% !important;
 }
-.main-h {
-  position: relative;
-  left: 43%;
-  transform: translate(-5%);
-  font-weight: 500;
-}
+
 .heading-of-website{
   background-position: -83%;
 }
 }
 
 @media(min-width:360px) and (max-width:400px){
-  .number2 p{
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 300px;
+  } 
+   .number2 p{
     left: 17rem;
   }
   ._2nd-p{
@@ -394,9 +401,7 @@ footer{
   margin-left: 5% !important;
   text-align: center !important;
 }
-.main-h2 {
-    left: 27%;
-}
+
 footer{
   height: 300px;
 }
@@ -404,12 +409,7 @@ footer{
   left: 30% !important;
   top: 109% !important;
 }
-.main-h {
-  position: relative;
-  left: 43%;
-  transform: translate(-5%);
-  font-weight: 500;
-}
+
 .heading-of-website {
   background-position: 49%;
 }
@@ -433,13 +433,18 @@ footer{
     left: 32.5%;
     margin-top: 5%;
 }
+.heading-of-website {
+  height: 368px;
+}
+.carousel-image{
+  width: 300px;
+} 
+
 .footer p {
   margin-left: 5% !important;
   text-align: center !important;
 }
-.main-h2 {
-    left: 29.5%;
-}
+
 footer{
   height: 300px;
 }
@@ -447,12 +452,7 @@ footer{
   left: 33% !important;
   top: 109% !important;
 }
-.main-h {
-  position: relative;
-  left: 45%;
-  transform: translate(-5%);
-  font-weight: 500;
-}
+
 .heading-of-website {
   background-position: 49.4%;
 }
@@ -462,6 +462,12 @@ footer{
 }
 
 @media(min-width:460px) and (max-width:520px){
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 300px;
+  } 
   .number2 p{
     left: 23rem;
   }
@@ -480,9 +486,7 @@ footer{
   margin-left: 5% !important;
   text-align: center !important;
 }
-.main-h2 {
-    left: 31.5%;
-}
+
 footer{
   height: 300px;
 }
@@ -490,12 +494,7 @@ footer{
   left: 36% !important;
   top: 109% !important;
 }
-.main-h {
-  position: relative;
-  left: 45%;
-  transform: translate(-5%);
-  font-weight: 500;
-}
+
 .heading-of-website {
   background-position: 49.4%;
 }
@@ -505,7 +504,13 @@ footer{
 }
 
 @media(min-width:520px) and (max-width:570px){
-  .number2 p{
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 300px;
+  } 
+   .number2 p{
     left: 26rem;
   }
   ._2nd-p{
@@ -523,9 +528,7 @@ footer{
   margin-left: 1.5% !important;
   text-align: center !important;
 }
-.main-h2 {
-    left: 33.6%;
-}
+
 footer{
   height: 300px;
 }
@@ -537,12 +540,7 @@ footer{
   left: 2%;
   position: relative;
 }
-.main-h {
-  position: relative;
-  left: 45%;
-  transform: translate(-5%);
-  font-weight: 500;
-}
+
 .heading-of-website {
   background-position: 49.4%;
 }
@@ -552,7 +550,13 @@ footer{
 }
 
 @media(min-width:570px) and (max-width:640px){
-  .number2 p{
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 300px;
+  } 
+   .number2 p{
   left: 27rem;
 }
 ._2nd-p{
@@ -570,9 +574,7 @@ footer{
 margin-left: 1.5% !important;
 text-align: center !important;
 }
-.main-h2 {
-  left: 35.6%;
-}
+
 .footer-img {
   width: 30%;
   position: relative;
@@ -589,12 +591,6 @@ top: 109% !important;
 left: 2%;
 position: relative;
 }
-.main-h {
-position: relative;
-left: 48%;
-transform: translate(-5%);
-font-weight: 500;
-}
 .heading-of-website {
 background-position: 49.4%;
 }
@@ -604,6 +600,15 @@ width: 33% !important;
 }
 
 @media(min-width:640px) and (max-width:700px){
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 330px;
+  } 
+    a .show-more-home {
+    left: 36%;
+  }
   .number2 p{
     left: 27rem;
   }
@@ -622,9 +627,7 @@ width: 33% !important;
   margin-left: 1.5% !important;
   text-align: center !important;
   }
-  .main-h2 {
-    left: 37.6%;
-  }
+
   .footer-img {
     width: 30%;
     position: relative;
@@ -641,12 +644,7 @@ width: 33% !important;
   left: 2%;
   position: relative;
   }
-  .main-h {
-  position: relative;
-  left: 48%;
-  transform: translate(-5%);
-  font-weight: 500;
-  }
+
   .heading-of-website {
   background-position: 49.4%;
   }
@@ -656,6 +654,15 @@ width: 33% !important;
 }
 
 @media(min-width:700px) and (max-width:760px){ 
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 330px;
+  } 
+   a .show-more-home {
+    left: 36%;
+  }
   .navbar-toggler{
     width: 0 !important;
     font-size: 1.5rem !important;
@@ -678,9 +685,7 @@ width: 33% !important;
 margin-left: 1.5% !important;
 text-align: center !important;
 }
-.main-h2 {
-  left: 37.9%;
-}
+
 .footer-img {
   width: 30%;
   position: relative;
@@ -697,12 +702,7 @@ top: 109% !important;
 left: 2%;
 position: relative;
 }
-.main-h {
-position: relative;
-left: 48%;
-transform: translate(-5%);
-font-weight: 500;
-}
+
 .heading-of-website {
 background-position: 49.4%;
 }
@@ -712,6 +712,15 @@ width: 33% !important;
 }
 
 @media(min-width:760px) and (max-width:820px){
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 330px;
+  } 
+  a .show-more-home {
+    left: 36%;
+  }
   .navbar-toggler{
     width: 0 !important;
     font-size: 1.5rem !important;
@@ -734,9 +743,7 @@ width: 33% !important;
 margin-left: 1.5% !important;
 text-align: center !important;
 }
-.main-h2 {
-  left: 38.9%;
-}
+
 .footer-img {
   width: 30%;
   position: relative;
@@ -753,12 +760,7 @@ top: 109% !important;
 left: 2%;
 position: relative;
 }
-.main-h {
-position: relative;
-left: 48%;
-transform: translate(-5%);
-font-weight: 500;
-}
+
 .heading-of-website {
 background-position: 49.4%;
 }
@@ -768,6 +770,15 @@ width: 25% !important;
 }
 
 @media(min-width:820px) and (max-width:880px){
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 330px;
+  } 
+   a .show-more-home {
+    left: 38%;
+  }
   .navbar-toggler{
     width: 0 !important;
     font-size: 1.5rem !important;
@@ -790,9 +801,7 @@ width: 25% !important;
 margin-left: 1.5% !important;
 text-align: center !important;
 }
-.main-h2 {
-  left: 38.9%;
-}
+
 .footer-img {
   width: 30%;
   position: relative;
@@ -809,12 +818,7 @@ top: 109% !important;
 left: 2%;
 position: relative;
 }
-.main-h {
-position: relative;
-left: 48%;
-transform: translate(-5%);
-font-weight: 500;
-}
+
 .heading-of-website {
 background-position: 49.4%;
 }
@@ -824,6 +828,15 @@ width: 25% !important;
 }
 
 @media(min-width:880px) and (max-width:999px){
+  .heading-of-website {
+    height: 368px;
+  }
+  .carousel-image{
+    width: 330px;
+  } 
+   a .show-more-home {
+    left: 38%;
+  }
   .navbar-toggler{
     width: 0 !important;
     font-size: 1.5rem !important;
@@ -846,9 +859,7 @@ width: 25% !important;
 margin-left: 1.5% !important;
 text-align: center !important;
 }
-.main-h2 {
-  left: 38.9%;
-}
+
 .footer-img {
   width: 30%;
   position: relative;
@@ -865,12 +876,7 @@ top: 109% !important;
 left: 2%;
 position: relative;
 }
-.main-h {
-position: relative;
-left: 48%;
-transform: translate(-5%);
-font-weight: 500;
-}
+
 .heading-of-website {
 background-position: 49.4%;
 }
@@ -880,15 +886,16 @@ width: 25% !important;
 }
 
 @media(min-width:1000px) and (max-width:1250px){
+  a .show-more-home {
+    left: 40%;
+  }
   .number2 p{
     left: 53.8rem;
   }
   .heading-of-website {
     background-position: 46%;
 }
-.main-h2 {
-  left: 39.9%;
-}
+
 ._2nd-p .container{
   left: 3%;
 }

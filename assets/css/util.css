@@ -86,6 +86,8 @@ z-index:10000; /* must be the highest number of all others to cover them all */
 .yellow-c{
     color: #6c4996;
 }
+
+
 .nav-img{
         position: absolute;
         top: 10%;
