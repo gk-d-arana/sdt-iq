@@ -71,7 +71,7 @@
 	position: relative;
 	color: #f59e05;
 	top: 0;
-	left: 36rem;
+	left: 42rem;
 }
 
 .para {
@@ -83,8 +83,7 @@
     margin: 5% 0;
     min-height: 1000px;
     background-image: linear-gradient(to right, #3093ce, #035c92);
-    object-fit: contain;
-    
+    padding-bottom: 1.5rem;    
 }
 
 a .show-more-home{
@@ -167,7 +166,7 @@ transition: 1s;
   /* ------------------------------------------ */
   .ai:hover #triangle-bottommiddle{
 top: 21%;
-left: -10.5%;
+left: -9.1%;
 transform: rotatex(-225deg);
 transform: rotatey(-225deg);
 transform: rotateZ(-135deg) scale(123%);
@@ -228,53 +227,51 @@ opacity: 1;
 }
 
 
-
-.svg-p1{
-    position: absolute;
-    top: 133px;
-    color: transparent;
-    left: 91px;
-    text-align: center;
+.svg-p1 {
+	position: absolute;
+	top: 157px;
+	left: 118px;
+	text-align: center;
+  color: transparent;
 }
 
 .svg-p2 {
   position: absolute;
-  top: 133px;
-  color: transparent;
-  left: 425px;
+  top: 157px;
+  left: 502px;
   text-align: center;
+  color: transparent;
 }
 
 .svg-p3{
   position: absolute;
-  top: 133px;
-  color: transparent;
-  left: 775px;
+  top: 157px;
+  left: 893px;
   text-align: center;
+  color: transparent;
 }
 
-.svg-p4{
-  position: absolute;
-  top: 363px;
+.svg-p4 {
+	position: absolute;
+	top: 418px;
+	left: 314px;
+	text-align: center;
   color: transparent;
-  left: 271px;
-  text-align: center;
 }
-
 .svg-p5{
   position: absolute;
-  top: 363px;
-  color: transparent;
-  left: 601px;
+  top: 418px;
+  left: 704px;
   text-align: center;
+  color: transparent;
 }
 
-.svg-p6{
-  position: absolute;
-  top: 603px;
+.svg-p6 {
+	position: absolute;
+	top: 705px;
+	left: 502px;
+	text-align: center;
   color: transparent;
-  left: 431px;
-  text-align: center;
 }
 
 

@@ -111,8 +111,8 @@ svg{
 }
 
 .show-more-pr{
-    background-color: #707070 !important;
-     color:#F5E65C !important; 
+    background-color: #6c4996 !important;
+     color:#fFF !important; 
      width: 25%;
 }
 
@@ -122,9 +122,10 @@ svg{
 .show-pr{
     position: relative;
     left: 33%;
-    background-color: #707070 !important;
-    color:#F5E65C !important; 
+    background-color: #6c4996 !important;
+     color:#fFF !important; 
     width: 25%;
+    margin-bottom: 1.6rem;
 }
 
 .product-details{

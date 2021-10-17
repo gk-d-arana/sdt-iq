@@ -1,4 +1,20 @@
 .show-products a{
-    color: #E5CA70 !important;
+    background-color: #6c4996 !important;
     text-decoration: none !important;
+    color: #fff;
 }
+
+.show-products a:hover{
+    color: #fff;
+}
+
+
+.nav-item hr{
+    color: #399cd7 !important;
+    opacity: .76;
+}
+
+body{
+    background-image: linear-gradient(to right, #3093ce, #035c92);
+}
+
