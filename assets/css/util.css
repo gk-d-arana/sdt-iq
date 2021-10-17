@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+.nav-item hr{
+    color: #399cd7 !important;
+    opacity: .76;
+}
+
 body{
     overflow-x: hidden;
    /*  font-family: FreeScpt !important; */

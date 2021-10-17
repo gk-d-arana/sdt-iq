@@ -1,6 +1,11 @@
+
+
+
 body{
-    background-image: url('../images/BACKGROUND@2X.png');
+    background-image: linear-gradient(to right, #3093ce, #035c92);
 }
+
+
 main{
     min-height: 1850px;
 }
@@ -105,6 +110,9 @@ svg{
     position: relative;
     left: -35%;
 }
+.inner-svg{
+    left:0;
+}
 
 .p-of-product{
     font-size: 1.5rem;
@@ -129,7 +137,7 @@ svg{
 }
 
 .product-details{
-    height: 1500px;
+    height: 600px;
     padding-top: 10%;
     transform: scale(0.7);
 }
@@ -141,9 +149,11 @@ svg{
 
 ._1st-angle {
 	position: absolute;
-	top: 4.6%;
-	left: 29.4%;
+	top: 2.6%;
+	left: 31.4%;
+	z-index: -1;
 }
+
 .text-div-1{
     padding-top: 3rem;
 }
@@ -176,7 +186,7 @@ svg{
 	padding: 10px 20px;
 	position: absolute;
 	width: 25%;
-	left: 74.3%;
+	left: 65.3%;
 	top: -9%;
 }
 
@@ -219,7 +229,6 @@ svg{
 
 .show-less-p-details{
         position: absolute;
-        top: 280%;
         left: 33%;
 }
 

@@ -47,7 +47,7 @@ $(document).ready(function () {
      })
 
      $(document).on('click', '.show-less-p-details', function (e) { 
-       $('html, body').animate({ scrollTop: $(document).scrollTop() - 1100 }, 'fast');
+       $('html, body').animate({ scrollTop: $(document).scrollTop() - 200 }, 'fast');
       let Cont = parseInt($(e.target).attr('id'))
       $(`.img-div-${Cont}`).removeClass('hidden')
       $(`.text-div-${Cont}`).removeClass('hidden')
