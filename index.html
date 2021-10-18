@@ -34,7 +34,7 @@
                     <a class="nav-link" href="./contactUs.html" style="color: #f8af02;">Contact Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-link-a" href="#">Switch To Arabic</a>
+                    <a class="nav-link change-lang nav-link-a" href="#">Switch To Arabic</a>
                   </li>
                 </ul>
               </div>
@@ -163,76 +163,29 @@
 
 
         <section class="_2nd-p pt-5">
-          <div class="container" style="position: relative;">
-            <div class="svg-p1"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p2"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p3"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p4"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p5"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p6"><h3>Product Name</h3><p>lorem ipsum</p></div>
-
+          <div class="container products-hover" style="position: relative;">
+           
             <div class="_1st-row">
-              <svg class="svg-hover" data-id="1" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="1">
-                <pattern data-id="1" id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="1" xlink:href="./assets/images/2.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="1" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)"/>
-              </svg>
-            <svg class="svg-hover" data-id="2" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="2">
-                <pattern data-id="2" id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="2" xlink:href="./assets/images/2.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="2" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
-            </svg>
 
-
-            <svg class="svg-hover" data-id="3" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="3">
-                <pattern data-id="3" id="img3" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="3" xlink:href="./assets/images/photo_2021-07-16_00-13-37.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="3" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img3)"/>
-            </svg>
           </div>
           <div class="_2nd-row">
-            <svg class="svg-hover" data-id="4" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="4">
-                <pattern data-id="4" id="img4" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="4" xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="4" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img4)"/>
-            </svg>
-            <svg class="svg-hover" data-id="5" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="5">
-                <pattern  data-id="5" id="img5" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image  data-id="5" xlink:href="./assets/images/2.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon  data-id="5" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img5)"/>
-            </svg>
+
           </div>
 
           <div data-id="6" class="_3rd-row">
-            <svg class="svg-hover" data-id="6" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="6">
-                <pattern data-id="6" id="img6" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="6" xlink:href="./assets/images/photo_2021-07-16_00-13-37.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="6" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img6)"/>
-            </svg>
+
           </div>
 
               <a href="./sections.html"><button class="btn show-more-home  col-xl-3">Show More</button></a>
           </div>
         </section>
-    </main>
+  
+  
+      </main>
+    
+    
+    
+    
     <footer class="footer ">
       <div class="container">
         <img src="./assets/images/sdt-logo.png" class="footer-img">
@@ -259,14 +212,19 @@
     <!--Scripts-->
     <script src="./assets/js/bootstrap.bundle.min.js" ></script>
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
-    
+    <script src="./assets/js/axios.min.js"></script>
     <script src="./assets/js/carousel3D.js"></script>
     <script src="./assets/js/homeAnimation.js"></script>
-
+    <script src="./assets/api/home.js"></script>
     <script src="./assets/js/homeJs.js"></script>
+
+
+
+    
+
     <script>
 
-          
+  
 
 //$(".main-img-loading").delay(2700).fadeOut();
 
