@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     axios({
-        url : "http://localhost:8000/main_sections/",
+        url : "http://syrian-design-team.com/api/public/api/main_sections/",
         method : "GET"
     }).then(res=>{
 
@@ -22,9 +22,9 @@ $(document).ready(function(){
           showMoreSections = "مزيد من الأقسام الرئيسية"
           showMore = " المزيد"
         }
-        res.data.forEach(main_section => {
+        console.log(res)
+        res.data.main_sections.forEach(main_section => {
         
-          
               if (counter %2 != 0) {
 
                 rows += `
@@ -33,7 +33,7 @@ $(document).ready(function(){
                   <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <pattern id="img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                        <image xlink:href="http://localhost:8000${main_section.main_section_image}" x="-25" width="150" height="100" />
+                        <image xlink:href="http://syrian-design-team.com/api/public/${main_section.main_section_image}" x="-25" width="150" height="100" />
                       </pattern>
                     </defs>
                     <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${counter})"/>
@@ -56,7 +56,7 @@ $(document).ready(function(){
                 <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <pattern id="mobile-img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="http://localhost:8000${main_section.main_section_image}" x="-25" width="150" height="100" />
+                      <image xlink:href="http://syrian-design-team.com/api/public/${main_section.main_section_image}" x="-25" width="150" height="100" />
                     </pattern>
                   </defs>
                   <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img${counter})"/>
@@ -90,7 +90,7 @@ $(document).ready(function(){
                   <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <pattern id="img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                        <image xlink:href="http://localhost:8000${main_section.main_section_image}" x="-25" width="150" height="100" />
+                        <image xlink:href="http://syrian-design-team.com/api/public/${main_section.main_section_image}" x="-25" width="150" height="100" />
                       </pattern>
                     </defs>
                     <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${counter})"/>
@@ -104,7 +104,7 @@ $(document).ready(function(){
                   <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <pattern id="mobile-img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                        <image xlink:href="http://localhost:8000${main_section.main_section_image}" x="-25" width="150" height="100" />
+                        <image xlink:href="http://syrian-design-team.com/api/public/${main_section.main_section_image}" x="-25" width="150" height="100" />
                       </pattern>
                     </defs>
                     <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img${counter})"/>

@@ -5,7 +5,7 @@
           method: "GET"
         }).then(res => {
           let count = 1
-          res.data.forEach(
+          res.data.data.forEach(
             (product, index) => {
             $('.products-hover').append(`
             `)
@@ -17,7 +17,7 @@
             <svg class="svg-hover" data-id="${index+1}" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <defs data-id="${index+1}">
                 <pattern data-id="${index+1}" id="img${index+1}" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="${index+1}" xlink:href=http://localhost:8000${product.product_image} x="-25" width="150" height="100" />
+                  <image data-id="${index+1}" xlink:href=http://syrian-design-team.com/api/public/${product.product_image} x="-25" width="150" height="100" />
                 </pattern>
               </defs>
               <polygon data-id="${index+1}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${index+1})"/>
@@ -35,7 +35,7 @@
             <svg class="svg-hover" data-id="${index+1}" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <defs data-id="${index+1}">
                 <pattern data-id="${index+1}" id="img${index+1}" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="${index+1}" xlink:href=http://localhost:8000${product.product_image} x="-25" width="150" height="100" />
+                  <image data-id="${index+1}" xlink:href=http://syrian-design-team.com/api/public/${product.product_image} x="-25" width="150" height="100" />
                 </pattern>
               </defs>
               <polygon data-id="${index+1}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${index+1})"/>
@@ -55,7 +55,7 @@
             <svg class="svg-hover" data-id="${index+1}" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <defs data-id="${index+1}">
                 <pattern data-id="${index+1}" id="img${index+1}" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="${index+1}" xlink:href=http://localhost:8000${product.product_image} x="-25" width="150" height="100" />
+                  <image data-id="${index+1}" xlink:href=http://syrian-design-team.com/api/public/${product.product_image} x="-25" width="150" height="100" />
                 </pattern>
               </defs>
               <polygon data-id="${index+1}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${index+1})"/>
@@ -138,11 +138,11 @@
         }).then(res => {
           $('.carousel-inner').empty()
           let active = true
-          res.data.forEach(carousel => {
+          res.data.data.forEach(carousel => {
             if (active) {
               $('.carousel-inner').append(`
               <div class="carousel-item active carousel-svg" data-bs-interval="10000">
-              <img class="carousel-image" src="http://localhost:8000${carousel.carousel_image}"/>
+              <img class="carousel-image" src="http://syrian-design-team.com/api/public/${carousel.carousel_image}" width="650"/>
                </div>
               `)
               active = false
@@ -150,7 +150,7 @@
             else{
             $('.carousel-inner').append(`
             <div class="carousel-item carousel-svg" data-bs-interval="10000">
-              <img class="carousel-image" src="http://localhost:8000${carousel.carousel_image}"/>
+              <img class="carousel-image" src="http://syrian-design-team.com/api/public/${carousel.carousel_image}" width="650"/>
           </div>
             `)
             }
@@ -166,7 +166,7 @@
                   <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <defs ">
               <pattern " id="ig${carousel.id}" patternUnits="userSpaceOnUse" width="100" height="100">
-                <image " xlink:href=http://localhost:8000${carousel.carousel_image} x="-25" width="150" height="100" />
+                <image " xlink:href=http://syrian-design-team.com/api/public/${carousel.carousel_image} x="-25" width="150" height="100" />
               </pattern>
             </defs>
             <polygon " points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#ig${carousel.id})"/>

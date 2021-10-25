@@ -17,8 +17,8 @@
 
 
 .carousel-image{
-  width: 700px;
   margin: 0 auto;
+  display: flex;
 }
 
 .carousel-indicators{
