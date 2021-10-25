@@ -1,7 +1,7 @@
 
       $(document).ready(function(){
         axios({
-          url : "http://localhost:8000/latest_products/",
+          url : "http://syrian-design-team.com/api/public/api/latest_products/",
           method: "GET"
         }).then(res => {
           let count = 1
@@ -132,7 +132,42 @@
                 `)
         })
         
- 
+        axios({
+          url : "http://syrian-design-team.com/api/public/api/carousel_images/",
+          method : "GET"
+        }).then(res => {
+          $('.carousel-inner').empty()
+          let active = true
+          res.data.forEach(carousel => {
+            if (active) {
+              $('.carousel-inner').append(`
+              <div class="carousel-item active carousel-svg" data-bs-interval="10000">
+              <img class="carousel-image" src="http://localhost:8000${carousel.carousel_image}"/>
+               </div>
+              `)
+              active = false
+            }
+            else{
+            $('.carousel-inner').append(`
+            <div class="carousel-item carousel-svg" data-bs-interval="10000">
+              <img class="carousel-image" src="http://localhost:8000${carousel.carousel_image}"/>
+          </div>
+            `)
+            }
+          })
+        })
 
       })
         
+
+      /*
+
+
+                  <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs ">
+              <pattern " id="ig${carousel.id}" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image " xlink:href=http://localhost:8000${carousel.carousel_image} x="-25" width="150" height="100" />
+              </pattern>
+            </defs>
+            <polygon " points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#ig${carousel.id})"/>
+            </svg>*/

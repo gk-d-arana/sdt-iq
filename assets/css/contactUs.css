@@ -26,13 +26,21 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.66rem;
+    font-size: 0.96rem;
 }
 .all-r{
     color: #ffffff;
         width: 20%;
         margin: 0 40%;
         font-size: 0.9rem;
+}
+
+.circle-contact {
+	display: flex;
+    width: 500px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
 }
 
 .all-r div{

@@ -7,6 +7,46 @@
     <link rel="stylesheet" href="./assets/css/util.css"></link>
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <title>SDT</title>
+    <style>
+      @media(min-width:1200px){
+        .ai{
+          height:245px;
+        }
+      } 
+      .para {
+        margin-left: 9%;
+      }
+
+
+      #triangle-bottomleft {
+
+        border-bottom: 142px solid #000;
+        border-right: 282px solid transparent;
+        border-left: 100px solid transparent;
+
+      }
+
+      #triangle-bottomright {
+        border-top: 163px solid #000;
+        border-right: 284px solid transparent;
+      }
+
+      #triangle-bottommiddle {
+        border-bottom: 140px solid #000;
+        border-right: 140px solid transparent;
+      }
+      .ai:hover #triangle-bottommiddle{
+        top: 21%;
+        left: -10.6%;
+        transform: rotatex(-245deg);
+        transform: rotatey(-245deg);
+        transform: rotateZ(-135deg) scale(123%);
+        opacity: 1;
+        
+      }
+
+
+    </style>
 </head>
 <body class="index-body">
     <header class="heading-of-website">
@@ -25,7 +65,7 @@
                     <hr size="4px">
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./sections.html" style="color: #f8af02;">Products</a>
+                    <a class="nav-link" href="./mainSections.html" style="color: #f8af02;">Products</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./aboutUs.html" style="color: #f8af02;">About Us</a>
@@ -33,10 +73,10 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./contactUs.html" style="color: #f8af02;">Contact Us</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link change-lang nav-link-a" href="#">Switch To Arabic</a>
-                  </li>
                 </ul>
+                <a class="nav-link change-lang-ar " href="#">
+                    <p style="color: #f8af02;">AR</p>
+                </a>
               </div>
             </div>
         </nav>
@@ -117,13 +157,14 @@
 
                 <span class="number"><p>01</p></span>
                 
-                <div class="ai col-xl-5 col-lg-5">
-                    <h4 class="mb-3" style="margin-left: 9%;">Adobe Ai</h4>
+                <div class="ai col-xl-6 col-lg-5">
+                    <h4 class="mb-3" style="margin-left: 9%;">Design Services</h4>
                     <div id="triangle-bottomleft"></div>
                     <div id="triangle-bottomright"></div>
                     <div id="triangle-bottommiddle"></div>
 
-                    <p class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, veritatis officiis quibusdam doloribus iure 
+                    <p class="para"> 
+                      Through design, we improve the image of a product or service and make it appear better and more attractive to the consumer or recipient of the service. This in turn leaves a good impression on people and enhances credibility and confidence in the product in an elaborate visual way                    </p>
                     </p>
                 </div>
               </div>
@@ -133,12 +174,13 @@
               
 
                 <div class="col-xl-6 col-lg-7"></div>
-                <div class="ai  col-xl-5 col-lg-5">
-                    <h4 class="mb-3" style="margin-left: 9%;">Adobe Photoshop</h4>
+                <div class="ai  col-xl-6 col-lg-5">
+                    <h4 class="mb-3" style="margin-left: 9%;">Digital Marketing Services</h4>
                     <div id="triangle-bottomleft"></div>
                     <div id="triangle-bottomright"></div>
                     <div id="triangle-bottommiddle"></div>
-                    <p class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, veritatis officiis quibusdam doloribus iure 
+                    <p class="para">
+                      The expertise and contributions of the team included all stages of planning, development and implementation of the selected integrated e-marketing solutions and services while providing full supervision and support for your business in order to ensure the best results from the digital marketing strategy and campaigns
                     </p>
                 </div>
               </div>
@@ -146,17 +188,28 @@
                 <span class="number"><p>03</p></span>
               
 
-                <div class="ai col-xl-5 col-lg-5">
-                    <h4 class="mb-3" style="margin-left: 9%;">Adobe Xd</h4>
+                <div class="ai col-xl-6 col-lg-5">
+                    <h4 class="mb-3" style="margin-left: 9%;">Programming and web design services</h4>
                     <div id="triangle-bottomleft"></div>
                     <div id="triangle-bottomright"></div>
                     <div id="triangle-bottommiddle"></div>
-                    <p class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, veritatis officiis quibusdam doloribus iure 
-                    </p>
+                    <p class="para">
+                      The Syrian design team provides you with what you need from professional web design services to ensure you compete in the commercial market in general and the digital market in particular                    </p>
                 </div>
               </div>
             </div>
-            <h2 class="main-h2 mt-4" style="color: #565656;">Latest Products</h2>
+            <h2 class="main-h2 mt-4" style="color: #565656;">
+              
+              Are You Ready To Build Your Trade Mark
+                <p style="font-size: 1.5rem;">Purchase Your Full Pack </p>
+                <a class="btn" 
+                style="
+                  background: #6c4996;
+                  padding: 0.5rem 2rem;
+                  color: #fff;
+                "
+                href="https://wsend.co/963998060223">Chat With Us Now</a>
+            </h2>
         </section>
 
 
@@ -176,7 +229,7 @@
 
           </div>
 
-              <a href="./sections.html"><button class="btn show-more-home  col-xl-3">Show More</button></a>
+              <a href="./mainSections.html"><button class="btn show-more-home  col-xl-3">Show More</button></a>
           </div>
         </section>
   
@@ -196,9 +249,11 @@
           <a><img src="./assets/images/Phone@2X.png"></a>
         </div>
         <div class="links2">
-          <a><img src="./assets/images/Icon awesome-facebook-f@2X.png"></a>
-          <a><img src="./assets/images/Icon awesome-instagram@2X.png"></a>
-          <a><img src="./assets/images/Icon awesome-linkedin@2X.png"></a>
+          <a href="https://www.facebook.com/syrian.design.team"><img src="./assets/images/Icon awesome-facebook-f@2X.png"></a>
+          <a href="https://www.instagram.com/sdt.team2021/"><img src="./assets/images/Icon awesome-instagram@2X.png"></a>
+          
+          <a href="https://t.me/o0SDT0o"><img src="./assets/images/telegram.svg" width="27"></a>
+
         </div>
         <div class="cpr mt-4">
             Sdt &copy; 2021, All Rights Reserved.
@@ -222,22 +277,6 @@
 
     
 
-    <script>
-
-  
-
-//$(".main-img-loading").delay(2700).fadeOut();
-
-
-
-/*       setTimeout(() => {
-        $('header').removeClass('hidden')
-        $('.footer').removeClass('hidden')
-        $('.main-content-wrapper').removeClass('hidden')
-        $('.main-img-loading').fadeOut().addClass('hidden')
-        $('.index-body').css('height', '2500px')
-      }, 3000); */
-    </script>
 
 
   </body>

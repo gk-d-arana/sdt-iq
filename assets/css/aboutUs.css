@@ -73,7 +73,7 @@ main{
         position: absolute;
         left: -1.3%;
         z-index: -1;
-        top: -17%
+        top: -30%;
     }
     .main-p-arrow {
         position: absolute;
@@ -101,9 +101,9 @@ main{
 }
 
 
-.who-sec{
-    margin-top: 10%;
-    color: #ffffff;
+.who-sec {
+	margin-top: 13%;
+	color: #ffffff;
 }
 
 .user-img-wrapper {
@@ -187,7 +187,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 55%;
+        margin-top: 75%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -257,7 +257,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 70%;
+        margin-top: 80%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -328,7 +328,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 60%;
+        margin-top: 80%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -403,7 +403,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 60%;
+        margin-top: 80%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -476,7 +476,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 60%;
+        margin-top: 80%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -550,7 +550,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 60%;
+        margin-top: 80%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -626,7 +626,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 60%;
+        margin-top: 80%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -705,7 +705,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 60%;
+        margin-top: 80%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -919,6 +919,17 @@ main{
     }
     .m-details p {
         margin-left: 4% !important;
+    }
+}
+
+
+
+@media(min-width:1100px) and (max-width:1300px){
+    .navbar-back {
+        position: absolute;
+        left: -1.3%;
+        z-index: -1;
+        top: -24%;
     }
 }
 

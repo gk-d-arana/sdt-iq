@@ -89,7 +89,7 @@ z-index:10000; /* must be the highest number of all others to cover them all */
 
 
 .nav-img{
-        position: absolute;
+        position:  relative;
         top: 10%;
         width: 13%;
 }
@@ -108,8 +108,13 @@ hr{
 	list-style: none;
 	display: flex;
 	position: relative;
-	left: 50%;
+	left: 41%;
 	transform: translate(-50%);
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+	justify-content: space-between;
 }
 
 .logo-text {
@@ -185,12 +190,12 @@ svg{
   ._2nd-row {
 	position: relative;
 	left: 15.4%;
-	margin-top: -9% !important;
+	margin-top: -5% !important;
 }
 ._3rd-row {
 	position: relative;
 	left: 30.7%;
-	margin-top: -9%;
+	margin-top: -5%;
 }
 
 

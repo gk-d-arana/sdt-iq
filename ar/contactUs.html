@@ -19,9 +19,11 @@
         margin-left: 25%;
         margin-top: 4%;
       }
+      @media(min-width:1200px){
       .all-r {
         margin: 0 40.4%;
       }
+    }
     </style>
 </head>
 <body>
@@ -39,7 +41,7 @@
                     <a class="nav-link" aria-current="page" href="./index.html" style="color: #f8af02;">الصفحة الرئيسية</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./sections.html" style="color: #f8af02;">المنتجات</a>
+                    <a class="nav-link" href="./mainSections.html" style="color: #f8af02;">المنتجات</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./aboutUs.html" style="color: #f8af02;">معلومات عنا</a>
@@ -48,10 +50,10 @@
                     <a class="nav-link" href="./contactUs.html" style="color: #399cd7;">تواصل معنا</a>
                     <hr size="4px">
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link change-lang-ar nav-link-a" href="#">التبديل الى الانكليزية</a>
-                  </li>
                 </ul>
+                <a class="nav-link change-lang-ar " href="#">
+                  <p style="color: #f8af02;">EN</p>
+                </a>
               </div>
             </div>
         </nav>
@@ -63,21 +65,21 @@
         <div class="container main-ch">
             <h1>تواصل معنا</h1>
               <p class="mb-5">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo expedita quae facere odio, corrupti suscipit exercitationem voluptatem magnam quibusdam error sequi est, possimus maiores reprehenderit esse sint excepturi commodi repellendus?
+                إذا كنت ترغب بعمل إحترافي وإبداعي تواصل مع فريقنا
               </p>
               <h3>الفرع الرئيسي</h3>
               <div class="images-wrapper">
                 <span>
                   <img src="../assets/images/Group 748.png">
-                  <p>موقع الفرع الرئيسي</p>
+                  <p>سوريا- دمشق-صالحية شهدا</p>
                 </span>
                 <span>
                   <img src="../assets/images/Group 750.png">
-                  <p>هاتف الفرع الرئيسي</p>
+                  <p>+963998260223</p>
                 </span>
                 <span>
                   <img src="../assets/images/Group 751.png">
-                  <p>موبايل الفرع الرئيسي</p>
+                  <p>+9647803404012</p>
                 </span>
               </div>
 
@@ -85,7 +87,9 @@
 
             <div class="location-divider">
                 <img src="../assets/images/Path 31.png">
-                <img src="../assets/images/NoPath.png">
+                <div class="circle-contact">
+                  <img class="w-100" style="border-radius: 50%;" src="../assets/images/about-logo.jpg">
+                </div>
                 <img src="../assets/images/Repeat Grid 2.png">
             </div>
 
@@ -107,7 +111,7 @@
                   <div class="mb-3">
                     <textarea class="form-control" id="exampleMessage" rows="7" placeholder="الرسالة"></textarea>
                   </div>
-                  <button class="btn col-xl-4" type="submit" style="background-color:#6c4996;color:#fff;">ارسال</button>
+                  <button class="btn col-xl-4 send-message" type="button" style="background-color:#6c4996;color:#fff;">ارسال</button>
                 </form>
               </div>
         </div>
@@ -119,13 +123,13 @@
       <section class="all-r">
         <div>
             <span>
-              <a><img src="../assets/images/Icon awesome-facebook-f@2X.png"></a>
+              <a href="https://www.facebook.com/syrian.design.team"><img src="../assets/images/Icon awesome-facebook-f@2X.png"></a>
             </span>
             <span>
-              <a><img src="../assets/images/Icon awesome-instagram@2X.png"></a>
+              <a href="https://www.instagram.com/sdt.team2021/"><img src="../assets/images/Icon awesome-instagram@2X.png"></a>
             </span>
             <span>
-              <a><img src="../assets/images/Icon awesome-linkedin@2X.png"></a>
+              <a href="https://t.me/o0SDT0o"><img src="../assets/images/telegram.svg" width="27"></a>
             </span>
           </div>
           <p>Sdt &copy;2021, كل الحقوق محفوظة.</p>
@@ -140,5 +144,6 @@
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/jquery-3.6.0.min.js"></script>
     <script src="../assets/js/homeJs.js"></script>
+    <script src="../assets/js/contactus.js"></script>
   </body>
 </html>

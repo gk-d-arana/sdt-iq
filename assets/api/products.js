@@ -42,14 +42,14 @@ $(document).ready(function(){
 
               rows += `
               <div class="row mb-3">
-              <div class="col-xl-3 col-lg-5 img-div-${counter}">
-                <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <pattern id="img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
+              <div class="col-xl-3 col-lg-5 img-div-${counter} svg-img svg-img" data-href="http://localhost:8000${product.product_image}">
+                <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" data-href="http://localhost:8000${product.product_image}">
+                  <defs data-href="http://localhost:8000${product.product_image}">
+                    <pattern data-href="http://localhost:8000${product.product_image}" id="img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
+                      <image data-href="http://localhost:8000${product.product_image}" xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
                     </pattern>
                   </defs>
-                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${counter})"/>
+                  <polygon data-href="http://localhost:8000${product.product_image}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${counter})"/>
                 </svg>
               </div>
               <div class="col-xl-9 col-lg-7 text-div-${counter}">
@@ -99,14 +99,14 @@ $(document).ready(function(){
               
               mobile_rows += `
               <div class="row mb-3">
-              <div class="col-xl-3 img-div-${counter}">
-              <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <pattern id="mobile-img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
+              <div class="col-xl-3 img-div-${counter} svg-img"  data-href="http://localhost:8000${product.product_image}">
+              <svg data-href="http://localhost:8000${product.product_image}" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs data-href="http://localhost:8000${product.product_image}">
+                  <pattern data-href="http://localhost:8000${product.product_image}" id="mobile-img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
+                    <image data-href="http://localhost:8000${product.product_image}" xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
                   </pattern>
                 </defs>
-                <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img${counter})"/>
+                <polygon data-href="http://localhost:8000${product.product_image}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img${counter})"/>
               </svg>
             </div>
             <div class="col-xl-9 text-div-1">
@@ -124,7 +124,7 @@ $(document).ready(function(){
           
                 <div class="col-4 ">
                 <h2>Product Name</h2>
-                <svg class="svg-ipad w-100 inner-svg" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <svg class="svg-ipad svg-img w-100 inner-svg" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <pattern id="img1-details" patternUnits="userSpaceOnUse" width="100" height="100">
                       <image xlink:href="./assets/images/1.png" x="-25" width="150" height="100" />
@@ -169,14 +169,14 @@ $(document).ready(function(){
                   </p>
                   <button class="btn show-more-pr show-info-pr" id="${counter}">Show Info</button>
                   </div>
-              <div class="col-xl-3 col-lg-5 img-div-${counter}">
-                <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <div class="col-xl-3 col-lg-5 img-div-${counter} svg-img"  data-href="http://localhost:8000${product.product_image}">
+                <svg data-href="http://localhost:8000${product.product_image}" class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
-                    <pattern id="img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
+                    <pattern data-href="http://localhost:8000${product.product_image}" id="img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
+                      <image data-href="http://localhost:8000${product.product_image}" xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
                     </pattern>
                   </defs>
-                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${counter})"/>
+                  <polygon data-href="http://localhost:8000${product.product_image}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${counter})"/>
                 </svg>
               </div>
               <div class="product-details hidden product-details-${counter} mb-5" id="${counter}">
@@ -218,14 +218,14 @@ $(document).ready(function(){
      
               mobile_rows += `
               <div class="row mb-3">
-              <div class="col-xl-3">
-                <svg class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <div class="col-xl-3 ">
+                <svg data-href="http://localhost:8000${product.product_image}" class="svg-r" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
-                    <pattern id="mobile-img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
-                      <image xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
+                    <pattern data-href="http://localhost:8000${product.product_image}" id="mobile-img${counter}" patternUnits="userSpaceOnUse" width="100" height="100">
+                      <image data-href="http://localhost:8000${product.product_image}" xlink:href="http://localhost:8000${product.product_image}" x="-25" width="150" height="100" />
                     </pattern>
                   </defs>
-                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img${counter})"/>
+                  <polygon data-href="http://localhost:8000${product.product_image}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#mobile-img${counter})"/>
                 </svg>
               </div>            
               <div class="col-xl-9">

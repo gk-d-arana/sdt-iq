@@ -1,6 +1,6 @@
 $(document).ready(function () { 
 
-    $('.nav-link-a').on('click', () =>{
+    $('.change-lang-ar').on('click', () =>{
         let link = `${window.location}`
         let path = `${window.location.pathname}`
         if (link.includes('ar')) {

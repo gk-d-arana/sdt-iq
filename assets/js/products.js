@@ -36,6 +36,12 @@ $(document).ready(function () {
       $(`.product-details-${Cont}`).addClass('hidden').addClass('anti-transing')
      })
 
+     $(document).on('click', '.svg-img', function (e) { 
+      let href = $(e.target).data('href')
+      location.href = href
+    })
+
+     
 })
 
   /*   else if (w3UserAgent.indexOf("Safari") > -1) {

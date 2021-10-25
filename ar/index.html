@@ -15,6 +15,66 @@
         margin-left: 25%;
         margin-top: 4%;
       }
+      #triangle-bottomleft {
+        pointer-events: none;
+        transform: rotateZ(120deg) translateX(4%) translateY(-377%);
+        z-index: -1;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 128px solid #000;
+        border-right: 255px solid transparent;
+        top: 42%;
+        left: -.1%;
+        border-left: 100px solid transparent;
+        opacity: 0;
+        transition: 1s;
+      }
+
+      #triangle-bottomright {
+        pointer-events: none;
+        z-index: -1;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 137px solid #000;
+        border-right: 257px solid transparent;
+        border-left: 100px solid transparent;
+        top: -82%;
+        left: 85%;
+        transform: rotate(-57deg);
+        transition: 1s;
+        opacity: 0;
+      }
+
+      #triangle-bottommiddle {
+        pointer-events: none;
+        z-index: -1;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 127px solid #000;
+        border-right: 127px solid transparent;
+        top: 21%;
+        opacity: 0;
+        left: 110%;
+        transform: rotate(225deg);
+        transition: 1s;
+      }
+      .ai:hover #triangle-bottommiddle{
+        top: 21%;
+        left: -11.6%;
+        transform: rotatex(-245deg);
+        transform: rotatey(-245deg);
+        transform: rotateZ(-135deg) scale(123%);
+        opacity: 1;
+        
+          }
+          @media(min-width:1200px){
+            .ai{
+              height:220px;
+            }
+          } 
     </style>
 </head>
 <body class="index-body">
@@ -34,7 +94,7 @@
                     <hr size="4px">
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./sections.html" style="color: #f8af02;">المنتجات</a>
+                    <a class="nav-link" href="./mainSections.html" style="color: #f8af02;">المنتجات</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./aboutUs.html" style="color: #f8af02;">معلومات عنا</a>
@@ -42,10 +102,10 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./contactUs.html" style="color: #f8af02;">تواصل معنا</a>
                   </li>
-                    <li class="nav-item">
-                    <a class="nav-link change-lang-ar nav-link-a" href="#">التبديل الى الانكليزية</a>
-                  </li>
                 </ul>
+                <a class="nav-link change-lang-ar " href="#">
+                  <p style="color: #f8af02;">EN</p>
+                </a>
               </div>
             </div>
         </nav>
@@ -127,12 +187,14 @@
                 <span class="number"><p>01</p></span>
                 
                 <div class="ai col-xl-5 col-lg-5">
-                    <h4 class="mb-3" style="margin-left: 9%;">Adobe Ai</h4>
+                    <h4 class="mb-3" style="margin-left: 9%;">خدمات التصميم</h4>
                     <div id="triangle-bottomleft"></div>
                     <div id="triangle-bottomright"></div>
                     <div id="triangle-bottommiddle"></div>
 
-                    <p class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, veritatis officiis quibusdam doloribus iure 
+                    <p class="para"> 
+                      نعمل من خلال التصميم على تحسين صورة المنتج أو الخدمة ونجعلها تبدو بصورة أفضل وأكثر جاذبية لدى المستهلك أو متلقي الخدمة. وهذا بدوره يترك انطباعاً
+                       جيداً لدى الناس ويعزز المصداقية والثقة في المنتج بطريقة بصرية متقنة
                     </p>
                 </div>
               </div>
@@ -143,11 +205,13 @@
 
                 <div class="col-xl-6 col-lg-7"></div>
                 <div class="ai  col-xl-5 col-lg-5">
-                    <h4 class="mb-3" style="margin-left: 9%;">Adobe Photoshop</h4>
+                    <h4 class="mb-3" style="margin-left: 9%;">خدمات التسويق الالكتروني</h4>
                     <div id="triangle-bottomleft"></div>
                     <div id="triangle-bottomright"></div>
                     <div id="triangle-bottommiddle"></div>
-                    <p class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, veritatis officiis quibusdam doloribus iure 
+                    <p class="para"> 
+        
+                      شمل خبرات وإسهامات فريق العمل جميع مراحل التخطيط والتطوير والتطبيق لحلول وخدمات التسويق الإلكتروني المتكاملة المختارة مع توفير الإشراف والدعم الكامل لنشاطك التجاري بهدف ضمان تحقيق أفضل النتائج من استراتيجية وحملات التسويق الرقمي
                     </p>
                 </div>
               </div>
@@ -156,97 +220,57 @@
               
 
                 <div class="ai col-xl-5 col-lg-5">
-                    <h4 class="mb-3" style="margin-left: 9%;">Adobe Xd</h4>
+                    <h4 class="mb-3" style="margin-left: 9%;">خدمات البرمجة وتصميم المواقع</h4>
                     <div id="triangle-bottomleft"></div>
                     <div id="triangle-bottomright"></div>
                     <div id="triangle-bottommiddle"></div>
-                    <p class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, veritatis officiis quibusdam doloribus iure 
+                    <p class="para"> 
+                      الفريق السوري للتصميم يوفر لك ماتحتاج إليه من خدمات تصميم المواقع الإلكترونية بشكل احترافي يضمن لك المنافسة في السوق التجاري بشكل عام والسوق الرقمي بشكل خاص
                     </p>
                 </div>
               </div>
             </div>
-            <h2 class="main-h2 mt-4" style="color: #565656;">أحدث المنتجات</h2>
-        </section>
+            <h2 class="main-h2 mt-4" style="color: #565656;">
+              
+                هل أنت مستعد لبناء علامتك التجارية
+                <p style="font-size: 1.5rem;">احصل على الحزمة الكاملة</p>
+                <a class="btn" 
+                style="
+                  background: #6c4996;
+                  padding: 0.5rem 2rem;
+                  color: #fff;
+                "
+                href="https://wsend.co/963998060223">تواصل معنا</a>
+            </h2>        </section>
+
 
 
 
 
         <section class="_2nd-p pt-5">
-          <div class="container" style="position: relative;">
-            <div class="svg-p1"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p2"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p3"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p4"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p5"><h3>Product Name</h3><p>lorem ipsum</p></div>
-            <div class="svg-p6"><h3>Product Name</h3><p>lorem ipsum</p></div>
-
+          <div class="container products-hover" style="position: relative;">
+           
             <div class="_1st-row">
-              <svg class="svg-hover" data-id="1" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="1">
-                <pattern data-id="1" id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="1" xlink:href="../assets/images/2.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="1" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)"/>
-              </svg>
-            <svg class="svg-hover" data-id="2" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="2">
-                <pattern data-id="2" id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="2" xlink:href="../assets/images/2.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="2" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)"/>
-            </svg>
 
-
-            <svg class="svg-hover" data-id="3" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="3">
-                <pattern data-id="3" id="img3" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="3" xlink:href="../assets/images/photo_2021-07-16_00-13-37.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="3" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img3)"/>
-            </svg>
           </div>
           <div class="_2nd-row">
-            <svg class="svg-hover" data-id="4" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="4">
-                <pattern data-id="4" id="img4" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="4" xlink:href="../assets/images/1.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="4" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img4)"/>
-            </svg>
-            <svg class="svg-hover" data-id="5" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="5">
-                <pattern  data-id="5" id="img5" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image  data-id="5" xlink:href="../assets/images/2.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon  data-id="5" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img5)"/>
-            </svg>
+
           </div>
 
           <div data-id="6" class="_3rd-row">
-            <svg class="svg-hover" data-id="6" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <defs data-id="6">
-                <pattern data-id="6" id="img6" patternUnits="userSpaceOnUse" width="100" height="100">
-                  <image data-id="6" xlink:href="../assets/images/photo_2021-07-16_00-13-37.png" x="-25" width="150" height="100" />
-                </pattern>
-              </defs>
-              <polygon data-id="6" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img6)"/>
-            </svg>
+
           </div>
 
-              <a href="../sections.html"><button class="btn show-more-home  col-xl-3">المزيد</button></a>
+              <a href="./mainSections.html"><button class="btn show-more-home  col-xl-3">عرض المزيد</button></a>
           </div>
         </section>
+  
     </main>
     <footer class="footer ">
       <div class="container">
         <img src="../assets/images/sdt-logo.png" class="footer-img">
 <!--         <p>Sdt is a leading consultancy and service provider in the IT and telecom sector. </p>-->       
- <p>شركتنا هي شركة رائدة في المجال الاستشاري وتع أكبر مزود خدمات في المجال التقني في الشرق الأوسط </p>
+ <p>شركتنا هي شركة رائدة في المجال الاستشاري وتعد أكبر مزود خدمات في المجال التقني في الشرق الأوسط </p>
 
         <div class="links my-3">
           <a><img src="../assets//images/email@2X.png"></a>
@@ -254,9 +278,9 @@
           <a><img src="../assets/images/Phone@2X.png"></a>
         </div>
         <div class="links2">
-          <a><img src="../assets/images/Icon awesome-facebook-f@2X.png"></a>
-          <a><img src="../assets/images/Icon awesome-instagram@2X.png"></a>
-          <a><img src="../assets/images/Icon awesome-linkedin@2X.png"></a>
+          <a href="https://www.facebook.com/syrian.design.team"><img src="../assets/images/Icon awesome-facebook-f@2X.png"></a>
+          <a href="https://www.instagram.com/sdt.team2021/"><img src="../assets/images/Icon awesome-instagram@2X.png"></a>
+          <a href="https://t.me/o0SDT0o"><img src="../assets/images/telegram.svg" width="27"></a>
         </div>
         <div class="cpr mt-4">
             Sdt &copy; 2021, كل الحقوق محفوظة
@@ -270,27 +294,12 @@
     <!--Scripts-->
     <script src="../assets/js/bootstrap.bundle.min.js" ></script>
     <script src="../assets/js/jquery-3.6.0.min.js"></script>
-    
+    <script src="../assets/js/axios.min.js"></script>
     <script src="../assets/js/carousel3D.js"></script>
     <script src="../assets/js/homeAnimation.js"></script>
-
+    <script src="../assets/api/home.js"></script>
     <script src="../assets/js/homeJs.js"></script>
-    <script>
-
           
-
-//$(".main-img-loading").delay(2700).fadeOut();
-
-
-
-/*       setTimeout(() => {
-        $('header').removeClass('hidden')
-        $('.footer').removeClass('hidden')
-        $('.main-content-wrapper').removeClass('hidden')
-        $('.main-img-loading').fadeOut().addClass('hidden')
-        $('.index-body').css('height', '2500px')
-      }, 3000); */
-    </script>
 
 
   </body>
