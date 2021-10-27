@@ -159,8 +159,8 @@ main{
         top: -4%;
         left: 0%;
     }
-    .footer{
-        height: 300px;
+    .footer {
+        height: 325px;
     }
     .links2{
         left: 26%;
@@ -187,7 +187,7 @@ main{
         left: -43%;
     }
     .who-sec{
-        margin-top: 75%;
+        margin-top: 100%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -215,9 +215,7 @@ main{
     }
 }
 
-@media(min-width:320px) and (max-width:359px){
-  
-}
+
 
 @media(min-width:360px) and (max-width:400px){
     .main-p-arrow{
@@ -229,8 +227,8 @@ main{
     top: -4%;
     left: 0%;
 }
-    .footer{
-        height: 300px;
+    .footer {
+	height: 325px;
     }
     .links2{
         left: 30%;
@@ -256,8 +254,8 @@ main{
         top: 0%;
         left: -43%;
     }
-    .who-sec{
-        margin-top: 80%;
+    .who-sec {
+        margin-top: 109%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -300,8 +298,8 @@ main{
     top: -4%;
     left: 0%;
 }
-    .footer{
-        height: 310px;
+.footer {
+	height: 325px;
     }
     .links2{
         left: 33%;
@@ -327,8 +325,8 @@ main{
         top: 0%;
         left: -43%;
     }
-    .who-sec{
-        margin-top: 80%;
+    .who-sec {
+        margin-top: 109%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -378,8 +376,8 @@ main{
     .footer{
         height: 340px;
     }
-    .links2{
-        left: 33%;
+    .links2 {
+        left: 38%;
     }
     .footer-img {
         width: 49%;
@@ -402,8 +400,8 @@ main{
         top: 0%;
         left: -43%;
     }
-    .who-sec{
-        margin-top: 80%;
+    .who-sec {
+        margin-top: 109%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -475,8 +473,8 @@ main{
         top: 0%;
         left: -43%;
     }
-    .who-sec{
-        margin-top: 80%;
+    .who-sec {
+        margin-top: 109%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -549,8 +547,8 @@ main{
         top: 0%;
         left: -43%;
     }
-    .who-sec{
-        margin-top: 80%;
+    .who-sec {
+        margin-top: 100%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -625,8 +623,8 @@ main{
         top: 0%;
         left: -43%;
     }
-    .who-sec{
-        margin-top: 80%;
+    .who-sec {
+        margin-top: 109%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
@@ -704,8 +702,8 @@ main{
         top: 0%;
         left: -43%;
     }
-    .who-sec{
-        margin-top: 80%;
+    .who-sec {
+        margin-top: 109%;
     }
     .mobile-image-wrapper1{
         margin-top: -60% !important;
