@@ -98,14 +98,28 @@ main{
         left: 23%;
         top: 124%;
         cursor: pointer;
+
 }
 
+    .who-sec {
+        margin-top: 19%;
+        color: #ffffff;
+    }
 
-.who-sec {
-	margin-top: 13%;
-	color: #ffffff;
-}
 
+
+
+
+@-moz-document url-prefix() {
+    .who-sec {
+        margin-top: 13%;
+        color: #ffffff;
+    }
+    
+  }
+
+
+  
 .user-img-wrapper {
 	background-color: #707070;
 	width: 50%;
@@ -160,7 +174,7 @@ main{
         left: 0%;
     }
     .footer {
-        height: 325px;
+        height: 335px;
     }
     .links2{
         left: 26%;
@@ -228,7 +242,7 @@ main{
     left: 0%;
 }
     .footer {
-	height: 325px;
+	height: 335px;
     }
     .links2{
         left: 30%;
@@ -299,7 +313,7 @@ main{
     left: 0%;
 }
 .footer {
-	height: 325px;
+	height: 335px;
     }
     .links2{
         left: 33%;

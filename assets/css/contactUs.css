@@ -10,22 +10,25 @@ body{
     text-align: center;
 }
 
-.location-divider{
+
+
+.location-divider {
     display: flex;
     align-items: center;
-    margin-left: -12%;
+    margin-left: -25%;
     margin-top: 7%;
 }
 
 .location-divider img{
-    width: 40%;
+    width: 50%;
 }
 
 
-.images-wrapper{
+.images-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    margin-right: 7%;
     font-size: 0.96rem;
 }
 .all-r{
@@ -36,11 +39,40 @@ body{
 }
 
 .circle-contact {
-	display: flex;
-    width: 500px;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+
+
+
+@media(max-width:700px){
+    .circle-contact {
+        flex-shrink: 0;
+        display: flex;
+        width: 136px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+@media (min-width:700px) and (max-width:900px){
+    .circle-contact {
+        flex-shrink: 0;
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
 }
 
 .all-r div{
@@ -53,9 +85,16 @@ body{
     margin-left: 7%;
 }
 
+
+
 .images-wrapper span img {
-    width: 50%;
+    width: 95px;
 }
+
+
+
+
+
 .form-contact form{
     width: 50%;
     margin: 0 auto;
@@ -70,8 +109,18 @@ body{
 */
 
 
+
+
 @-moz-document url-prefix() {
  
+    .images-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-right: 4.5%;
+        font-size: 0.96rem;
+    }
+
     .location-divider{       
         display: flex;
         align-items: center;

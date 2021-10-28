@@ -76,6 +76,10 @@ main{
         top: 117% !important;
         cursor: pointer;
     }
+    .main-content-wrapper section.products-sec {
+        margin-top: 20%;
+        color: #ffffff;
+    }
     
 }
 
@@ -100,9 +104,9 @@ footer{
     padding-top: 4%;
 }
 
-.products-sec{
-    margin-top: 15%;
-    color: #ffffff;
+.products-sec {
+	margin-top: 13%;
+	color: #ffffff;
 }
 
 svg{
