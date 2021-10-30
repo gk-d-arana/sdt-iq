@@ -360,9 +360,6 @@ svg{
 }
 
 @media(min-width:300px) and (max-width:1001px){
-    .nav-img {
-        width: 35%;
-    }
     .navbar-toggler{
         width: 0 !important;
     }
@@ -475,9 +472,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 50%;
         font-size: 0.9rem;
@@ -632,9 +627,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 63%;
         font-size: 0.9rem;
@@ -791,9 +784,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 73%;
         font-size: 0.9rem;
@@ -949,9 +940,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 73%;
         font-size: 0.9rem;
@@ -1109,9 +1098,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 85%;
         font-size: 0.9rem;
@@ -1265,9 +1252,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 85%;
         font-size: 0.9rem;
@@ -1424,9 +1409,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 85%;
         font-size: 0.9rem;
@@ -1583,9 +1566,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 110%;
         font-size: 0.9rem;
@@ -1742,9 +1723,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 110%;
         font-size: 0.9rem;
@@ -1905,9 +1884,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 110%;
         font-size: 0.9rem;
@@ -2066,9 +2043,7 @@ svg{
         position: relative;
         left: 23%;
     }
-    .footer p{
-        margin-left: 5%;
-    }
+    
     .main-p p {
         width: 110%;
         font-size: 0.9rem;

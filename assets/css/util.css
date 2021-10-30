@@ -1,6 +1,17 @@
+/*english*/
 @font-face {
-    font-family:"FreeScpt";
-    src: url('../fonts/FREESCPT.TTF') format("truetype");
+    font-family:"Didot";
+    src: url('../fonts/Didot\ Regular.ttf') format("truetype");
+  }
+
+/* arabic */
+@font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Cairo.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
   }
 
 *{
@@ -14,6 +25,12 @@
 }
 
 
+.footer-svg {
+	fill: #f59e05;
+	width: 35px;
+	height: 35px;
+}
+
 .nav-item .nav-link-a {
 	color: #fff;
 	border: 1px solid;
@@ -24,10 +41,6 @@
 	border: 1px solid;
 }
 
-body{
-    overflow-x: hidden;
-   /*  font-family: FreeScpt !important; */
-}
 
 
 .main-img-loading img{
@@ -146,8 +159,12 @@ hr{
 
 
 .footer p {
-        margin-left: 29%;
-        margin-top: 4%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.footer-p-img{
+    width: 300px;
 }
 
 .links, .cpr{
@@ -217,6 +234,7 @@ svg{
 @media(min-width:200px) and (max-width:1000px){
     .nav-img{
         position: relative;
+        width: 30%;
     }
     .nav-bar-ul{
         display: block;
