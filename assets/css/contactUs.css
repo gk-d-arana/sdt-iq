@@ -59,6 +59,12 @@ body{
         align-items: center;
         border-radius: 50%;
     }
+    .images-wrapper{
+        margin-right: 0% !important;
+    }
+    .images-wrapper span p{
+        width: 135px;
+    }
 }
 
 

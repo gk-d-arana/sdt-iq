@@ -60,7 +60,6 @@
               </defs>
               <polygon data-id="${index+1}" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img${index+1})"/>
               </svg>
-            
             </div>
                     `)
                   //count +=1
@@ -142,19 +141,39 @@
             if (active) {
               $('.carousel-inner').append(`
               <div class="carousel-item active carousel-svg" data-bs-interval="10000">
+                <a class="carousel-a" data-id="${carousel.main_section.id}" data-name="${carousel.main_section.name}" data-description="${carousel.main_section.description}" href="#">
               <img class="carousel-image" src="http://syrian-design-team.com/api/public/${carousel.carousel_image}" width="650"/>
-               </div>
+              </a> 
+              </div>
+
               `)
               active = false
             }
             else{
             $('.carousel-inner').append(`
             <div class="carousel-item carousel-svg" data-bs-interval="10000">
-              <img class="carousel-image" src="http://syrian-design-team.com/api/public/${carousel.carousel_image}" width="650"/>
+            <a href="#" class="carousel-a" data-id="${carousel.main_section.id}" data-name="${carousel.main_section.name}" data-description="${carousel.main_section.description}">
+            <img  class="carousel-image" src="http://syrian-design-team.com/api/public/${carousel.carousel_image}" width="650"/>
+            </a>
           </div>
             `)
             }
           })
+        })
+
+
+        $(document).on('click', '.carousel-a', e => {
+          e.preventDefault();
+          localStorage.setItem('main_section_id', $(e.target).data('id'))
+          localStorage.setItem('main_section_name', $(e.target).data('name'))
+          localStorage.setItem('main_section_description', $(e.target).data('description'))
+    
+          if (location.href.includes('ar')) {
+            location.href = "/ar/sections.html"
+          }
+          else{
+            location.href = "/sections.html"
+          }
         })
 
       })
