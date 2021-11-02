@@ -35,6 +35,8 @@ $(document).ready(function(){
         showMoreProducts = "مزيد من المنتجات"
       }
 
+      //english
+console.log(res.data.products.length)
       res.data.products.forEach(product => {
       
         
@@ -263,8 +265,8 @@ $(document).ready(function(){
                 <button class="btn show-pr mt-5">${showMoreProducts}</button>
 
                 `
-                $('.mobile-size').append(container_rows)
-                $('.laptop-size').append(container)
+                $('.p-m').append(container_rows)
+                $('.p-l').append(container)
                 container = ""
                 rows = ""
                 container_rows = ""
@@ -293,22 +295,43 @@ $(document).ready(function(){
 
                 </div>
                 `
-                $('.mobile-size').append(container_rows)
+                $('.p-m').append(container_rows)
 
-                $('.laptop-size').append(container)
+                $('.p-l').append(container)
                 container = ""
                 rows = ""
                 container_counter +=1
                 container_rows = ""
                 mobile_rows = ""
             }
+
+            if(1==res.data.products.length){
+              console.log('1')
+              container_rows = `
+              <div class="container con-${counter} " id="${counter}">
+              ${mobile_rows}
+              </div>
+              `
+        
+              container = `
+              <div class="container con-${counter} " id="${counter}">
+              ${rows}
+              </div>
+              `
+           
+              $('.p-m').append(container_rows)
+              $('.p-l').append(container)
+        
+            }else{
+              counter  +=1
+            }
        
-            counter  +=1
               
       });
       
 
-      container_rows = `
+ if(counter!=1){    
+    container_rows = `
       <div class="container con-${container_counter} hidden" id="${container_counter}">
       ${mobile_rows}
       </div>
@@ -320,38 +343,39 @@ $(document).ready(function(){
       </div>
       `
    
-      $('.mobile-size').append(container_rows)
-      $('.laptop-size').append(container)
+      $('.p-m').append(container_rows)
+      $('.p-l').append(container)
+}
 
+    
 
-      }).then(res=>{
-
-        let section_name = localStorage.getItem('section_name')
-        let section_description= localStorage.getItem('section_description')
+        section_name = localStorage.getItem('section_name')
+        section_description= localStorage.getItem('section_description')
         $('.section_name_h').text(section_name)
         $('.section_description_p').text(section_description)
   
-        let counter = 1
+        counter = 1
           
-        let container = ""
+        container = ""
         
-        let rows = ""
+        rows = ""
         
-        let mobile_rows = ""
+        mobile_rows = ""
         
-        let container_rows = ""
+        container_rows = ""
   
-        let container_counter = 2
-        let arrowLink = "./assets/images/Path 2068.png"
+        container_counter = 2
+        arrowLink = "./assets/images/Path 2068.png"
         if (location.href.includes('ar')) {
           arrowLink= "../assets/images/Path 2068.png"
         }
   
-        let showMoreProducts = "Show More Products"
+        showMoreProducts = "Show More Products"
         if (location.href.includes('ar')) {
           showMoreProducts = "مزيد من المنتجات"
         }
   
+        //arabic
         res.data.products.forEach(product => {
         
           
@@ -580,8 +604,8 @@ $(document).ready(function(){
                   <button class="btn show-pr mt-5">${showMoreProducts}</button>
   
                   `
-                  $('.mobile-size').append(container_rows)
-                  $('.laptop-size').append(container)
+                  $('.products-arabic-mobile').append(container_rows)
+                  $('.products-arabic-laptop').append(container)
                   container = ""
                   rows = ""
                   container_rows = ""
@@ -610,9 +634,9 @@ $(document).ready(function(){
   
                   </div>
                   `
-                  $('.mobile-size').append(container_rows)
+                  $('.products-arabic-mobile').append(container_rows)
   
-                  $('.laptop-size').append(container)
+                  $('.products-arabic-laptop').append(container)
                   container = ""
                   rows = ""
                   container_counter +=1
@@ -620,11 +644,30 @@ $(document).ready(function(){
                   mobile_rows = ""
               }
          
-              counter  +=1
+              if(1==res.data.products.length){
+                container_rows = `
+                <div class="container con-${counter}" id="${counter}">
+                ${mobile_rows}
+                </div>
+                `
+          
+                container = `
+                <div class="container con-${counter}" id="${counter}">
+                ${rows}
+                </div>
+                `
+             
+                $('.products-arabic-mobile').append(container_rows)
+                $('.products-arabic-laptop').append(container)
+              }
+              else{
+                counter  +=1
+              }
                 
         });
         
-  
+  if(counter != 1){
+
         container_rows = `
         <div class="container con-${container_counter} hidden" id="${container_counter}">
         ${mobile_rows}
@@ -639,7 +682,7 @@ $(document).ready(function(){
      
         $('.products-arabic-mobile').append(container_rows)
         $('.products-arabic-laptop').append(container)
-  
+  }
   
         })
 

@@ -195,7 +195,8 @@ $(document).ready(function(){
                 
         });
         
-
+if(counter !=1)
+        {
         container_rows = `
         <div class="container con-${container_counter} hidden" id="${container_counter}">
         ${mobile_rows}
@@ -209,7 +210,7 @@ $(document).ready(function(){
         `
      
         $('.sec-m').append(container_rows)
-        $('.sec-l').append(container)
+        $('.sec-l').append(container)}
 
        section_name = localStorage.getItem('main_section_name')
        section_description= localStorage.getItem('main_section_description')
@@ -403,7 +404,8 @@ $(document).ready(function(){
                 
         });
         
-
+if(counter != 1)
+        {
         container_rows = `
         <div class="container con-${container_counter} hidden" id="${container_counter}">
         ${mobile_rows}
@@ -417,7 +419,7 @@ $(document).ready(function(){
         `
      
         $('.sections-arabic-mobile').append(container_rows)
-        $('.sections-arabic-laptop').append(container)
+        $('.sections-arabic-laptop').append(container)}
 
     })
 
