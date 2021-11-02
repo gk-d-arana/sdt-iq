@@ -25,6 +25,7 @@ $(document).ready(function(){
           showMoreSections = "مزيد من الأقسام"
           showMore = " المزيد"
         }
+      
         res.data.sections.forEach(section => {
         
           
@@ -139,8 +140,8 @@ $(document).ready(function(){
                   <button class="btn show-pr mt-5">${showMoreSections}</button>
 
                   `
-                  $('.mobile-size').append(container_rows)
-                  $('.laptop-size').append(container)
+                  $('.sec-m').append(container_rows)
+                  $('.sec-l').append(container)
                   container = ""
                   rows = ""
                   container_rows = ""
@@ -162,17 +163,35 @@ $(document).ready(function(){
 
                   </div>
                   `
-                  $('.mobile-size').append(container_rows)
+                  $('.sec-m').append(container_rows)
 
-                  $('.laptop-size').append(container)
+                  $('.sec-l').append(container)
                   container = ""
                   rows = ""
                   container_counter +=1
                   container_rows = ""
                   mobile_rows = ""
               }
-         
-              counter  +=1
+         if(1==res.data.sections.length){
+           
+        container_rows = `
+        <div class="container con-${counter} " id="${counter}">
+        ${mobile_rows}
+        </div>
+        `
+
+        container = `
+        <div class="container con-${counter} " id="${counter}">
+        ${rows}
+        </div>
+        `
+     
+        $('.sec-m').append(container_rows)
+        $('.sec-l').append(container)
+         }else{
+
+           counter  +=1
+         }
                 
         });
         
@@ -189,27 +208,26 @@ $(document).ready(function(){
         </div>
         `
      
-        $('.mobile-size').append(container_rows)
-        $('.laptop-size').append(container)
+        $('.sec-m').append(container_rows)
+        $('.sec-l').append(container)
 
-    }).then(res=>{
-      let section_name = localStorage.getItem('main_section_name')
-      let section_description= localStorage.getItem('main_section_description')
+       section_name = localStorage.getItem('main_section_name')
+       section_description= localStorage.getItem('main_section_description')
       $('.section_name_h').text(section_name)
       $('.section_description_p').text(section_description)
-        let counter = 1
+         counter = 1
         
-        let container = ""
+         container = ""
         
-        let rows = ""
+         rows = ""
         
-        let mobile_rows = ""
+         mobile_rows = ""
         
-        let container_rows = ""
+         container_rows = ""
 
-        let container_counter = 2
-        let showMore = "Show More"
-        let showMoreSections = "Show More Sections"
+         container_counter = 2
+         showMore = "Show More"
+         showMoreSections = "Show More Sections"
         if (location.href.includes('ar')) {
           showMoreSections = "مزيد من الأقسام"
           showMore = " المزيد"
@@ -328,8 +346,8 @@ $(document).ready(function(){
                   <button class="btn show-pr mt-5">${showMoreSections}</button>
 
                   `
-                  $('.mobile-size').append(container_rows)
-                  $('.laptop-size').append(container)
+                  $('.sections-arabic-mobile').append(container_rows)
+                  $('.sections-arabic-laptop').append(container)
                   container = ""
                   rows = ""
                   container_rows = ""
@@ -351,17 +369,37 @@ $(document).ready(function(){
 
                   </div>
                   `
-                  $('.mobile-size').append(container_rows)
+                  $('.sections-arabic-mobile').append(container_rows)
 
-                  $('.laptop-size').append(container)
+                  $('.sections-arabic-laptop').append(container)
                   container = ""
                   rows = ""
                   container_counter +=1
                   container_rows = ""
                   mobile_rows = ""
               }
-         
-              counter  +=1
+
+              if(1==res.data.sections.length){
+                  
+        container_rows = `
+        <div class="container con-${counter}" id="${counter}">
+        ${mobile_rows}
+        </div>
+        `
+
+        container = `
+        <div class="container con-${counter}" id="${counter}">
+        ${rows}
+        </div>
+        `
+     
+        $('.sections-arabic-mobile').append(container_rows)
+        $('.sections-arabic-laptop').append(container)
+              }else{
+
+                counter  +=1
+              }
+
                 
         });
         
