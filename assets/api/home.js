@@ -159,7 +159,7 @@
             `)
             }
           })
-        })
+        }).catch(error=>console.log(error))
 
 
         $(document).on('click', '.carousel-a', e => {
